@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:short_grass": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 961,
+      "minecraft:walk_one_cm": 3409,
+      "minecraft:total_world_time": 961,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 35,
+      "minecraft:sneak_time": 3,
+      "minecraft:play_time": 961,
+      "minecraft:jump": 9,
+      "minecraft:time_since_death": 961
+    }
+  },
+  "DataVersion": 4903
+}
