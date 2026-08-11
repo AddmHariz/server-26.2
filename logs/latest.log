@@ -1,44 +1,40 @@
-[00:05:10] [Server thread/WARN]: ViceIsTrash moved wrongly!
-[00:06:28] [Server thread/INFO]: Storyseek3r has made the advancement [Tactical Fishing]
-[00:18:36] [Server thread/INFO]: umaaaaaq has made the advancement [Cover Me with Diamonds]
-[00:19:26] [Server thread/INFO]: ViceIsTrash has made the advancement [Suit Up]
-[00:25:23] [Server thread/INFO]: umaaaaaq has made the advancement [Light as a Rabbit]
-[00:33:51] [Server thread/INFO]: Afaz07 has made the advancement [Sweet Dreams]
-[00:33:55] [Server thread/INFO]: umaaaaaq has made the advancement [Take Aim]
-[00:34:52] [Server thread/INFO]: ViceIsTrash has made the advancement [Sweet Dreams]
-[00:34:57] [Server thread/INFO]: Storyseek3r has made the advancement [Sweet Dreams]
-[00:39:07] [Server thread/INFO]: OumaKazuya[/100.123.233.5:51079] logged in with entity id 83747 at (203.5, 68.0, 232.5)
-[00:39:07] [Server thread/INFO]: OumaKazuya joined the game
-[00:44:19] [Server thread/INFO]: OumaKazuya has made the advancement [Isn't It Iron Pick]
-[00:45:32] [Server thread/INFO]: OumaKazuya has made the advancement [Stone Age]
-[00:48:03] [Server thread/INFO]: ViceIsTrash has made the advancement [A Seedy Place]
-[00:55:50] [Server thread/INFO]: ViceIsTrash has made the advancement [Fishy Business]
-[01:01:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=276, y=51, z=184} BlockPos{x=275, y=51, z=184}
-[01:01:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=277, y=52, z=184} BlockPos{x=276, y=51, z=183}
-[01:01:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=277, y=52, z=184} BlockPos{x=276, y=51, z=183}
-[01:13:52] [Server thread/INFO]: OumaKazuya has made the advancement [Diamonds!]
-[01:17:56] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:17:56] [Server thread/INFO]: ViceIsTrash left the game
-[01:18:00] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:14206] logged in with entity id 91630 at (267.05301570511074, 72.0, 203.5197126786649)
-[01:18:00] [Server thread/INFO]: ViceIsTrash joined the game
-[01:18:10] [Server thread/INFO]: [Not Secure] <ViceIsTrash> nigga
-[01:21:15] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[01:21:15] [Server thread/INFO]: umaaaaaq left the game
-[01:22:08] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:22:08] [Server thread/INFO]: ViceIsTrash left the game
-[01:29:24] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
-[01:29:24] [Server thread/INFO]: OumaKazuya left the game
-[01:31:09] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[01:31:09] [Server thread/INFO]: Storyseek3r left the game
-[01:31:26] [Server thread/INFO]: Afaz07 lost connection: Disconnected
-[01:31:26] [Server thread/INFO]: Afaz07 left the game
-[01:32:21] [Server thread/INFO]: Stopping server
-[01:32:21] [Server thread/INFO]: Saving players
-[01:32:21] [Server thread/INFO]: Saving worlds
-[01:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:03:32] [Server thread/INFO]: Afaz07 has made the advancement [Suit Up]
+[00:04:55] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:04:55] [Server thread/INFO]: Afaz07 left the game
+[00:05:04] [Server thread/INFO]: Afaz07[/100.99.48.98:20484] logged in with entity id 63525 at (165.74656740933017, -45.0, 721.0875225118707)
+[00:05:04] [Server thread/INFO]: Afaz07 joined the game
+[00:05:13] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:05:13] [Server thread/INFO]: Afaz07 left the game
+[00:05:33] [Server thread/INFO]: Afaz07[/100.99.48.98:4931] logged in with entity id 64163 at (168.55279476798964, -44.0, 715.554778551327)
+[00:05:33] [Server thread/INFO]: Afaz07 joined the game
+[00:19:47] [Server thread/INFO]: Afaz07 has made the advancement [Sneak 100]
+[00:31:09] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:31:09] [Server thread/INFO]: Afaz07 left the game
+[00:31:30] [Server thread/INFO]: Afaz07[/100.99.48.98:46552] logged in with entity id 78719 at (225.16912631969197, -43.0, 709.0026975066615)
+[00:31:30] [Server thread/INFO]: Afaz07 joined the game
+[00:31:50] [Server thread/INFO]: k07eee has made the advancement [Best Friends Forever]
+[00:35:32] [Server thread/INFO]: Afaz07 has made the advancement [Cover Me with Diamonds]
+[00:39:08] [Server thread/INFO]: Storyseek3r has made the advancement [The Cutest Predator]
+[00:51:39] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:51:39] [Server thread/INFO]: Afaz07 left the game
+[00:51:45] [Server thread/INFO]: Afaz07[/100.99.48.98:30944] logged in with entity id 87936 at (219.22050640885746, -41.0, 638.6361496113219)
+[00:51:45] [Server thread/INFO]: Afaz07 joined the game
+[00:57:17] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:57:17] [Server thread/INFO]: Storyseek3r left the game
+[00:57:24] [Server thread/INFO]: k07eee lost connection: Disconnected
+[00:57:24] [Server thread/INFO]: k07eee left the game
+[00:59:14] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:59:14] [Server thread/INFO]: Afaz07 left the game
+[00:59:21] [Server thread/INFO]: Stopping server
+[00:59:21] [Server thread/INFO]: Saving players
+[00:59:21] [Server thread/INFO]: Saving worlds
+[00:59:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:59:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:59:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:59:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:59:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:59:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:59:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:59:21] [Server thread/INFO]: Thread RCON Listener stopped
+[00:59:21] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
+[00:59:21] [Server thread/INFO]: Thread RCON Client /100.99.48.98 stopped
