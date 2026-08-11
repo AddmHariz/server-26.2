@@ -3,11 +3,12 @@ setlocal
 
 REM ===== MEMORY SETTINGS =====
 REM You can adjust these if needed
-set MIN_RAM=12G
-set MAX_RAM=16G
+set MIN_RAM=8G
+set MAX_RAM=12G
 
 echo.
 echo ============================================
+echo   Afaz Was Here :D
 echo   Starting Fabric Server with %MIN_RAM% RAM, %MAX_RAM% RAM MAX
 echo ============================================
 echo.
@@ -33,7 +34,7 @@ set JAVA_OPTS=-XX:+UseG1GC ^
  -Dio.netty.eventLoopThreads=6
 
 REM ===== SERVER LAUNCH =====
-java -Xms%MIN_RAM% -Xmx%MAX_RAM% %JAVA_OPTS% -jar fabric-server-launch.jar
+java -Xms%MIN_RAM% -Xmx%MAX_RAM% %JAVA_OPTS% -jar fabric-server-mc.26.2-loader.0.19.3-launcher.1.1.2.jar
 
 echo.
 echo Server process has exited.
