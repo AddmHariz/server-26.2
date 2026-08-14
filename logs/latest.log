@@ -1,48 +1,28 @@
-[00:02:04] [Server thread/INFO]: Afaz07 lost connection: Disconnected
-[00:02:04] [Server thread/INFO]: Afaz07 left the game
-[00:02:08] [Server thread/INFO]: [Not Secure] <ViceIsTrash> dih
-[00:08:03] [Server thread/INFO]: k07eee[/100.115.56.108:50434] logged in with entity id 69750 at (-511.23253912004276, 74.5625, 1759.699999988079)
-[00:08:03] [Server thread/INFO]: k07eee joined the game
-[00:12:34] [Server thread/INFO]: ViceIsTrash has made the advancement [Best Friends Forever]
-[00:14:58] [Server thread/INFO]: ViceIsTrash has made the advancement [Cover Me with Diamonds]
-[00:15:52] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:15:52] [Server thread/INFO]: ViceIsTrash left the game
-[00:15:52] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:4590] logged in with entity id 76145 at (486.985382789405, 64.0, -1613.308967183075)
-[00:15:52] [Server thread/INFO]: ViceIsTrash joined the game
-[00:16:19] [Server thread/INFO]: k07eee lost connection: Timed out
-[00:16:19] [Server thread/INFO]: k07eee left the game
-[00:16:41] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:16:41] [Server thread/INFO]: Storyseek3r left the game
-[00:16:48] [Server thread/INFO]: Storyseek3r[/100.106.115.94:52701] logged in with entity id 76883 at (297.13931058031187, 62.110764312744145, -1473.917215395523)
-[00:16:48] [Server thread/INFO]: Storyseek3r joined the game
-[00:16:56] [Server thread/INFO]: k07eee (/100.115.56.108:60425) lost connection: Disconnected
-[00:17:26] [Server thread/INFO]: k07eee (3da4abda-008f-367b-a1d0-a63a83f63d38) lost connection: Timed out
-[00:17:36] [Server thread/INFO]: k07eee[/100.115.56.108:49793] logged in with entity id 77370 at (-520.7369192217648, 68.0, 1736.061018633697)
-[00:17:36] [Server thread/INFO]: k07eee joined the game
-[00:28:39] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:28:39] [Server thread/INFO]: Storyseek3r left the game
-[00:29:15] [Server thread/INFO]: Storyseek3r[/100.106.115.94:60073] logged in with entity id 83177 at (377.6875, 62.110764312744145, -1507.957370876159)
-[00:29:15] [Server thread/INFO]: Storyseek3r joined the game
-[00:29:48] [Server thread/WARN]: Oak Boat (vehicle of Storyseek3r) moved wrongly! 0.5056310579270757
-[00:32:28] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
-[00:33:18] [Server thread/INFO]: ViceIsTrash has made the advancement [The Parrots and the Bats]
-[00:38:01] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:38:01] [Server thread/INFO]: ViceIsTrash left the game
-[00:51:33] [Server thread/INFO]: Storyseek3r has made the advancement [Enchanter]
-[00:53:10] [RCON Listener #1/INFO]: Thread RCON Client /100.99.48.98 started
-[00:53:26] [RCON Client /100.99.48.98 #3/INFO]: Thread RCON Client /100.99.48.98 shutting down
-[00:57:03] [Server thread/INFO]: k07eee lost connection: Disconnected
-[00:57:03] [Server thread/INFO]: k07eee left the game
-[00:59:09] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:59:09] [Server thread/INFO]: Storyseek3r left the game
-[00:59:16] [Server thread/INFO]: Stopping server
-[00:59:16] [Server thread/INFO]: Saving players
-[00:59:16] [Server thread/INFO]: Saving worlds
-[00:59:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:59:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:59:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:59:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:59:17] [Server thread/INFO]: Thread RCON Listener stopped
+[00:33:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=472, y=62, z=-1611} BlockPos{x=473, y=62, z=-1617}
+[00:36:42] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:36:42] [Server thread/INFO]: ViceIsTrash left the game
+[00:36:56] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:4272] logged in with entity id 88913 at (489.8247013326075, 64.84375002384186, -1614.7576899615706)
+[00:36:56] [Server thread/INFO]: ViceIsTrash joined the game
+[00:39:34] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:39:34] [Server thread/INFO]: Storyseek3r left the game
+[00:39:37] [Server thread/INFO]: Storyseek3r[/100.106.115.94:53731] logged in with entity id 89938 at (561.0897191289773, 64.5, -1551.3221267037202)
+[00:39:37] [Server thread/INFO]: Storyseek3r joined the game
+[00:45:05] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:45:05] [Server thread/INFO]: ViceIsTrash left the game
+[00:55:54] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:55:54] [Server thread/INFO]: Afaz07 left the game
+[00:59:14] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:59:14] [Server thread/INFO]: Storyseek3r left the game
+[00:59:20] [Server thread/INFO]: Stopping server
+[00:59:20] [Server thread/INFO]: Saving players
+[00:59:20] [Server thread/INFO]: Saving worlds
+[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:59:20] [Server thread/INFO]: Thread RCON Listener stopped
+[00:59:20] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
+[00:59:20] [Server thread/INFO]: Thread RCON Client /100.99.48.98 stopped
