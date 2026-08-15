@@ -1,28 +1,13 @@
-[00:33:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=472, y=62, z=-1611} BlockPos{x=473, y=62, z=-1617}
-[00:36:42] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:36:42] [Server thread/INFO]: ViceIsTrash left the game
-[00:36:56] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:4272] logged in with entity id 88913 at (489.8247013326075, 64.84375002384186, -1614.7576899615706)
-[00:36:56] [Server thread/INFO]: ViceIsTrash joined the game
-[00:39:34] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:39:34] [Server thread/INFO]: Storyseek3r left the game
-[00:39:37] [Server thread/INFO]: Storyseek3r[/100.106.115.94:53731] logged in with entity id 89938 at (561.0897191289773, 64.5, -1551.3221267037202)
-[00:39:37] [Server thread/INFO]: Storyseek3r joined the game
-[00:45:05] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:45:05] [Server thread/INFO]: ViceIsTrash left the game
-[00:55:54] [Server thread/INFO]: Afaz07 lost connection: Disconnected
-[00:55:54] [Server thread/INFO]: Afaz07 left the game
-[00:59:14] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:59:14] [Server thread/INFO]: Storyseek3r left the game
-[00:59:20] [Server thread/INFO]: Stopping server
-[00:59:20] [Server thread/INFO]: Saving players
-[00:59:20] [Server thread/INFO]: Saving worlds
-[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:59:20] [Server thread/INFO]: Thread RCON Listener stopped
-[00:59:20] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
-[00:59:20] [Server thread/INFO]: Thread RCON Client /100.99.48.98 stopped
+[00:14:45] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:14:45] [Server thread/INFO]: Afaz07 left the game
+[00:14:52] [Server thread/INFO]: Stopping server
+[00:14:52] [Server thread/INFO]: Saving players
+[00:14:52] [Server thread/INFO]: Saving worlds
+[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:14:52] [Server thread/INFO]: Thread RCON Listener stopped
