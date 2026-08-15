@@ -3,8 +3,8 @@ setlocal
 
 REM ===== MEMORY SETTINGS =====
 REM You can adjust these if needed
-set MIN_RAM=4G
-set MAX_RAM=8G
+set MIN_RAM=8G
+set MAX_RAM=12G
 
 echo.
 echo ============================================
