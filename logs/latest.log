@@ -1,13 +1,82 @@
-[00:14:45] [Server thread/INFO]: Afaz07 lost connection: Disconnected
-[00:14:45] [Server thread/INFO]: Afaz07 left the game
-[00:14:52] [Server thread/INFO]: Stopping server
-[00:14:52] [Server thread/INFO]: Saving players
-[00:14:52] [Server thread/INFO]: Saving worlds
-[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:14:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:14:52] [Server thread/INFO]: Thread RCON Listener stopped
+[00:05:27] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:05:27] [Server thread/INFO]: OumaKazuya left the game
+[00:07:43] [Server thread/INFO]: OumaKazuya[/100.123.233.5:55552] logged in with entity id 67307 at (357.5, 64.875, -1502.5)
+[00:07:43] [Server thread/INFO]: OumaKazuya joined the game
+[00:18:37] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:18:37] [Server thread/INFO]: OumaKazuya left the game
+[00:19:33] [Server thread/WARN]: k07eee moved too quickly! -5.663723379253497,0.0,-8.315969430352652
+[00:21:01] [Server thread/INFO]: OumaKazuya[/100.123.233.5:55859] logged in with entity id 76191 at (318.38241172344965, 78.0, -1573.586668942773)
+[00:21:01] [Server thread/INFO]: OumaKazuya joined the game
+[00:23:58] [Server thread/INFO]: k07eee lost connection: Disconnected
+[00:23:58] [Server thread/INFO]: k07eee left the game
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -111] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:26:04] [Worker-Main-26/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-85, -110] while generating chunk [-87, -110] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:29:12] [Worker-Main-27/ERROR]: Detected unsafe terrain read during worldgen: reading from chunk [-77, -85] while generating chunk [-77, -87] (distance: 2, write radius: 1), step: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / minecraft:sculk_patch_deep_dark]
+[00:30:09] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:30:09] [Server thread/INFO]: OumaKazuya left the game
+[00:32:24] [Server thread/INFO]: OumaKazuya[/100.123.233.5:56116] logged in with entity id 88575 at (363.5162561965913, 68.0, -1507.5686516181047)
+[00:32:24] [Server thread/INFO]: OumaKazuya joined the game
+[00:32:26] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:32:26] [Server thread/INFO]: OumaKazuya left the game
+[00:36:01] [Server thread/INFO]: OumaKazuya[/100.123.233.5:56202] logged in with entity id 91246 at (363.5162561965913, 68.0, -1507.5686516181047)
+[00:36:01] [Server thread/INFO]: OumaKazuya joined the game
+[00:44:41] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:44:41] [Server thread/INFO]: ViceIsTrash left the game
+[00:45:14] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:45:14] [Server thread/INFO]: Storyseek3r left the game
+[00:45:25] [Server thread/INFO]: Storyseek3r[/100.106.115.94:50863] logged in with entity id 94652 at (545.2375000119209, 63.0, -1788.0827935797013)
+[00:45:25] [Server thread/INFO]: Storyseek3r joined the game
+[00:45:26] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:45:26] [Server thread/INFO]: OumaKazuya left the game
+[00:45:30] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:45:30] [Server thread/INFO]: Storyseek3r left the game
+[00:45:48] [Server thread/INFO]: Stopping server
+[00:45:48] [Server thread/INFO]: Saving players
+[00:45:48] [Server thread/INFO]: Saving worlds
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:45:49] [Server thread/INFO]: Thread RCON Listener stopped
