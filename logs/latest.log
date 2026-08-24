@@ -1,41 +1,45 @@
-[00:02:51] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:02:51] [Server thread/INFO]: Storyseek3r left the game
-[00:02:56] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
-[00:02:56] [Server thread/INFO]: OumaKazuya left the game
-[00:05:12] [Server thread/INFO]: OumaKazuya[/100.123.233.5:49673] logged in with entity id 82186 at (351.30000001192093, 64.0, -1516.7594239102318)
-[00:05:12] [Server thread/INFO]: OumaKazuya joined the game
-[00:05:56] [Server thread/INFO]: Storyseek3r[/100.106.115.94:54187] logged in with entity id 82808 at (680.3000000119209, 82.0, -3050.3292365574434)
-[00:05:56] [Server thread/INFO]: Storyseek3r joined the game
-[00:06:40] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:6296] logged in with entity id 83505 at (494.820004187278, 65.5, -1615.1491333778283)
-[00:06:40] [Server thread/INFO]: ViceIsTrash joined the game
-[00:12:08] [Server thread/INFO]: umaaaaaq has made the advancement [Minecraft: Trial(s) Edition]
-[00:15:28] [Server thread/INFO]: ViceIsTrash has made the advancement [Minecraft: Trial(s) Edition]
-[00:19:19] [Server thread/INFO]: [Not Secure] <Storyseek3r> W A
-[00:20:37] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
-[00:20:37] [Server thread/INFO]: OumaKazuya left the game
-[00:21:03] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:21:03] [Server thread/INFO]: ViceIsTrash left the game
-[00:21:09] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[00:21:09] [Server thread/INFO]: umaaaaaq left the game
-[00:21:18] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:5052] logged in with entity id 91835 at (571.6188074714911, 68.79673560066871, -1393.8250282596155)
-[00:21:18] [Server thread/INFO]: ViceIsTrash joined the game
-[00:21:23] [Server thread/INFO]: umaaaaaq[/100.124.143.21:57229] logged in with entity id 92106 at (577.2971491622826, 71.1212968405392, -1380.8694247585697)
-[00:21:23] [Server thread/INFO]: umaaaaaq joined the game
-[00:22:23] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:22:23] [Server thread/INFO]: ViceIsTrash left the game
-[00:23:32] [Server thread/INFO]: umaaaaaq has made the advancement [Enchanter]
-[00:24:40] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[00:24:40] [Server thread/INFO]: umaaaaaq left the game
-[00:41:27] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:41:27] [Server thread/INFO]: Storyseek3r left the game
-[00:41:35] [Server thread/INFO]: Stopping server
-[00:41:35] [Server thread/INFO]: Saving players
-[00:41:35] [Server thread/INFO]: Saving worlds
-[00:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:41:36] [Server thread/INFO]: Thread RCON Listener stopped
+[00:08:27] [Server thread/INFO]: Villager Villager['Leatherworker'/60363, l='ServerLevel[world]', x=597.80, y=113.50, z=-2380.67] died, message: 'Leatherworker was slain by Zombie'
+[00:09:04] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:09:04] [Server thread/INFO]: Storyseek3r left the game
+[00:09:14] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:09:14] [Server thread/INFO]: ViceIsTrash left the game
+[00:09:16] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:1994] logged in with entity id 61620 at (676.3000000119209, 78.0, -3048.300000011921)
+[00:09:16] [Server thread/INFO]: ViceIsTrash joined the game
+[00:09:27] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:09:27] [Server thread/INFO]: ViceIsTrash left the game
+[00:09:27] [Server thread/INFO]: Storyseek3r[/100.106.115.94:59535] logged in with entity id 61922 at (644.8181701656979, 103.84375002384186, -2125.544938544729)
+[00:09:27] [Server thread/INFO]: Storyseek3r joined the game
+[00:10:01] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2005] logged in with entity id 62711 at (676.3000000119209, 78.0, -3048.300000011921)
+[00:10:01] [Server thread/INFO]: ViceIsTrash joined the game
+[00:22:48] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:22:48] [Server thread/INFO]: ViceIsTrash left the game
+[00:23:09] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2151] logged in with entity id 70191 at (677.6999999880791, 62.0, -3043.716160303989)
+[00:23:09] [Server thread/INFO]: ViceIsTrash joined the game
+[00:23:32] [RCON Listener #1/INFO]: Thread RCON Client /100.99.48.98 started
+[00:32:10] [Server thread/INFO]: Afaz07 has made the advancement [Ice Bucket Challenge]
+[00:35:32] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:35:32] [Server thread/INFO]: ViceIsTrash left the game
+[00:35:47] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2227] logged in with entity id 76816 at (540.4847723235226, 71.0, -1804.195136398017)
+[00:35:47] [Server thread/INFO]: ViceIsTrash joined the game
+[00:38:56] [Server thread/INFO]: Afaz07 has made the advancement [Fishy Business]
+[00:39:54] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[00:39:54] [Server thread/INFO]: Afaz07 left the game
+[00:41:01] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
+[00:41:01] [Server thread/INFO]: umaaaaaq left the game
+[01:20:27] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[01:20:27] [Server thread/INFO]: Storyseek3r left the game
+[01:20:43] [Server thread/INFO]: Stopping server
+[01:20:43] [Server thread/INFO]: Saving players
+[01:20:43] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[01:20:43] [Server thread/INFO]: ViceIsTrash left the game
+[01:20:43] [Server thread/INFO]: Saving worlds
+[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:20:44] [Server thread/INFO]: Thread RCON Listener stopped
+[01:20:44] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
+[01:20:44] [Server thread/INFO]: Thread RCON Client /100.99.48.98 stopped
