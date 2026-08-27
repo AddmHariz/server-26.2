@@ -1,45 +1,29 @@
-[00:08:27] [Server thread/INFO]: Villager Villager['Leatherworker'/60363, l='ServerLevel[world]', x=597.80, y=113.50, z=-2380.67] died, message: 'Leatherworker was slain by Zombie'
-[00:09:04] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:09:04] [Server thread/INFO]: Storyseek3r left the game
-[00:09:14] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:09:14] [Server thread/INFO]: ViceIsTrash left the game
-[00:09:16] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:1994] logged in with entity id 61620 at (676.3000000119209, 78.0, -3048.300000011921)
-[00:09:16] [Server thread/INFO]: ViceIsTrash joined the game
-[00:09:27] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:09:27] [Server thread/INFO]: ViceIsTrash left the game
-[00:09:27] [Server thread/INFO]: Storyseek3r[/100.106.115.94:59535] logged in with entity id 61922 at (644.8181701656979, 103.84375002384186, -2125.544938544729)
-[00:09:27] [Server thread/INFO]: Storyseek3r joined the game
-[00:10:01] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2005] logged in with entity id 62711 at (676.3000000119209, 78.0, -3048.300000011921)
-[00:10:01] [Server thread/INFO]: ViceIsTrash joined the game
-[00:22:48] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:22:48] [Server thread/INFO]: ViceIsTrash left the game
-[00:23:09] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2151] logged in with entity id 70191 at (677.6999999880791, 62.0, -3043.716160303989)
-[00:23:09] [Server thread/INFO]: ViceIsTrash joined the game
-[00:23:32] [RCON Listener #1/INFO]: Thread RCON Client /100.99.48.98 started
-[00:32:10] [Server thread/INFO]: Afaz07 has made the advancement [Ice Bucket Challenge]
-[00:35:32] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:35:32] [Server thread/INFO]: ViceIsTrash left the game
-[00:35:47] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2227] logged in with entity id 76816 at (540.4847723235226, 71.0, -1804.195136398017)
-[00:35:47] [Server thread/INFO]: ViceIsTrash joined the game
-[00:38:56] [Server thread/INFO]: Afaz07 has made the advancement [Fishy Business]
-[00:39:54] [Server thread/INFO]: Afaz07 lost connection: Disconnected
-[00:39:54] [Server thread/INFO]: Afaz07 left the game
-[00:41:01] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[00:41:01] [Server thread/INFO]: umaaaaaq left the game
-[01:20:27] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[01:20:27] [Server thread/INFO]: Storyseek3r left the game
-[01:20:43] [Server thread/INFO]: Stopping server
-[01:20:43] [Server thread/INFO]: Saving players
-[01:20:43] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:20:43] [Server thread/INFO]: ViceIsTrash left the game
-[01:20:43] [Server thread/INFO]: Saving worlds
-[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:20:44] [Server thread/INFO]: Thread RCON Listener stopped
-[01:20:44] [RCON Client /100.99.48.98 #2/INFO]: Thread RCON Client /100.99.48.98 shutting down
-[01:20:44] [Server thread/INFO]: Thread RCON Client /100.99.48.98 stopped
+[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
+[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
+[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
+[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
+[00:09:34] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-133, y=69, z=-155} BlockPos{x=-133, y=66, z=-159}
+[00:10:34] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-136, y=72, z=-155} BlockPos{x=-136, y=73, z=-154}
+[00:10:50] [Server thread/WARN]: ViceIsTrash moved too quickly! 9.749297310868585,-1.0,-2.0996846216208667
+[00:17:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-11, y=98, z=-139} BlockPos{x=-12, y=94, z=-139}
+[00:33:03] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:33:03] [Server thread/INFO]: ViceIsTrash left the game
+[00:33:07] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:13423] logged in with entity id 51660 at (469.58880332705917, 61.0, -1610.21903814865)
+[00:33:07] [Server thread/INFO]: ViceIsTrash joined the game
+[00:37:24] [Server thread/INFO]: ViceIsTrash has made the advancement [Bee Our Guest]
+[01:37:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> `zzzzzz
+[01:43:20] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[01:43:20] [Server thread/INFO]: ViceIsTrash left the game
+[01:43:20] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[01:43:20] [Server thread/INFO]: Storyseek3r left the game
+[01:43:31] [Server thread/INFO]: Stopping server
+[01:43:31] [Server thread/INFO]: Saving players
+[01:43:31] [Server thread/INFO]: Saving worlds
+[01:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:43:32] [Server thread/INFO]: Thread RCON Listener stopped
