@@ -1,29 +1,66 @@
-[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
-[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
-[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
-[00:00:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=21, y=91, z=-175} BlockPos{x=21, y=89, z=-174}
-[00:09:34] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-133, y=69, z=-155} BlockPos{x=-133, y=66, z=-159}
-[00:10:34] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-136, y=72, z=-155} BlockPos{x=-136, y=73, z=-154}
-[00:10:50] [Server thread/WARN]: ViceIsTrash moved too quickly! 9.749297310868585,-1.0,-2.0996846216208667
-[00:17:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-11, y=98, z=-139} BlockPos{x=-12, y=94, z=-139}
-[00:33:03] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:33:03] [Server thread/INFO]: ViceIsTrash left the game
-[00:33:07] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:13423] logged in with entity id 51660 at (469.58880332705917, 61.0, -1610.21903814865)
-[00:33:07] [Server thread/INFO]: ViceIsTrash joined the game
-[00:37:24] [Server thread/INFO]: ViceIsTrash has made the advancement [Bee Our Guest]
-[01:37:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> `zzzzzz
-[01:43:20] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:43:20] [Server thread/INFO]: ViceIsTrash left the game
-[01:43:20] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[01:43:20] [Server thread/INFO]: Storyseek3r left the game
-[01:43:31] [Server thread/INFO]: Stopping server
-[01:43:31] [Server thread/INFO]: Saving players
-[01:43:31] [Server thread/INFO]: Saving worlds
-[01:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:43:32] [Server thread/INFO]: Thread RCON Listener stopped
+[00:17:22] [Server thread/INFO]: OumaKazuya[/100.123.233.5:53804] logged in with entity id 35772 at (347.50890042763154, 64.0, -1516.5856326822031)
+[00:17:22] [Server thread/INFO]: OumaKazuya joined the game
+[00:17:30] [Server thread/INFO]: [Not Secure] <OumaKazuya> how long will u play
+[00:17:40] [Server thread/INFO]: [Not Secure] <Storyseek3r> until 1 ig
+[00:17:45] [Server thread/INFO]: [Not Secure] <OumaKazuya> fahhh
+[00:18:07] [Server thread/INFO]: [Not Secure] <Storyseek3r> why?
+[00:18:24] [Server thread/INFO]: [Not Secure] <Storyseek3r> well maybe until 130\
+[00:18:42] [Server thread/INFO]: [Not Secure] <OumaKazuya> ill probably play but not joining vc
+[00:18:48] [Server thread/INFO]: [Not Secure] <Storyseek3r> I see
+[00:19:04] [Server thread/INFO]: [Not Secure] <OumaKazuya> only you in server?
+[00:19:08] [Server thread/INFO]: [Not Secure] <Storyseek3r> ye
+[00:19:13] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:4754] logged in with entity id 36447 at (486.9711596531877, 63.0, -1622.6175254591628)
+[00:19:13] [Server thread/INFO]: ViceIsTrash joined the game
+[00:19:13] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[00:19:13] [Server thread/INFO]: ViceIsTrash left the game
+[00:19:14] [Server thread/INFO]: [Not Secure] <Storyseek3r> Alfie kinda tired
+[00:19:20] [Server thread/INFO]: [Not Secure] <OumaKazuya> oh
+[00:19:26] [Server thread/INFO]: [Not Secure] <Storyseek3r> umar....
+[00:19:32] [Server thread/INFO]: [Not Secure] <Storyseek3r> no need to explain
+[00:19:36] [Server thread/INFO]: [Not Secure] <OumaKazuya> fuck him idfc
+[00:19:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> wwwwww
+[00:24:21] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:24:21] [Server thread/INFO]: OumaKazuya left the game
+[00:26:26] [Server thread/INFO]: OumaKazuya[/100.123.233.5:55571] logged in with entity id 38564 at (340.30000001192093, 64.0, -1517.3144606010849)
+[00:26:26] [Server thread/INFO]: OumaKazuya joined the game
+[00:26:56] [Server thread/INFO]: [Not Secure] <OumaKazuya> hello there
+[00:27:00] [Server thread/INFO]: [Not Secure] <Storyseek3r> yo
+[00:27:14] [Server thread/INFO]: [Not Secure] <Storyseek3r> wtf...
+[00:27:19] [Server thread/INFO]: [Not Secure] <OumaKazuya> what
+[00:27:44] [Server thread/INFO]: [Not Secure] <Storyseek3r> I legit saw a work in progress building over here
+[00:27:50] [Server thread/INFO]: [Not Secure] <Storyseek3r> when I arrived
+[00:28:07] [Server thread/INFO]: [Not Secure] <OumaKazuya> wip?
+[00:28:10] [Server thread/INFO]: [Not Secure] <Storyseek3r> I think my eyes decieved me
+[00:28:52] [Server thread/INFO]: [Not Secure] <Storyseek3r> you got any glow beries?
+[00:28:56] [Server thread/INFO]: [Not Secure] <OumaKazuya> nope
+[00:29:03] [Server thread/INFO]: [Not Secure] <Storyseek3r> dang
+[00:29:04] [Server thread/INFO]: [Not Secure] <OumaKazuya> i never mined
+[00:29:16] [Server thread/INFO]: [Not Secure] <Storyseek3r> bro never yearned for the mines
+[00:29:22] [Server thread/INFO]: [Not Secure] <Storyseek3r> but another yearning
+[00:29:29] [Server thread/INFO]: [Not Secure] <OumaKazuya> huhuhu
+[00:35:31] [Server thread/INFO]: [Not Secure] <Storyseek3r> imma leave for a bit
+[00:35:38] [Server thread/INFO]: [Not Secure] <Storyseek3r> wanna download some mods
+[00:36:00] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:36:00] [Server thread/INFO]: Storyseek3r left the game
+[00:36:55] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[00:36:55] [Server thread/INFO]: OumaKazuya left the game
+[00:37:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:41:22] [Server thread/INFO]: Storyseek3r[/100.106.115.94:59882] logged in with entity id 41769 at (546.1469763174068, 63.0, -1791.4967491897517)
+[00:41:22] [Server thread/INFO]: Storyseek3r joined the game
+[00:57:12] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:57:12] [Server thread/INFO]: Storyseek3r left the game
+[00:57:19] [Server thread/INFO]: Storyseek3r[/100.106.115.94:52523] logged in with entity id 45195 at (545.9319980988668, 63.0, -1790.0241962618927)
+[00:57:19] [Server thread/INFO]: Storyseek3r joined the game
+[00:58:28] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:58:28] [Server thread/INFO]: Storyseek3r left the game
+[00:58:37] [Server thread/INFO]: Stopping server
+[00:58:37] [Server thread/INFO]: Saving players
+[00:58:37] [Server thread/INFO]: Saving worlds
+[00:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:58:37] [Server thread/INFO]: Thread RCON Listener stopped
