@@ -2540,9 +2540,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
-      "has_mossy_cobblestone": "2026-09-05 01:32:21 +0800"
+      "has_gray_wool": "2026-09-05 00:43:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2026-09-05 00:43:43 +0800"
     },
     "done": true
   },
@@ -2552,9 +2558,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_carpet": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_gray_wool": "2026-09-05 00:43:43 +0800"
+      "has_mossy_cobblestone": "2026-09-05 01:32:21 +0800"
     },
     "done": true
   },
@@ -2582,21 +2588,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_banner": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_gray_wool": "2026-09-05 00:43:43 +0800"
+      "has_mossy_cobblestone": "2026-09-05 01:32:21 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_slab": "2026-09-05 02:00:00 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-09-05 01:32:21 +0800"
     },
     "done": true
   },
