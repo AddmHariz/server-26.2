@@ -1,58 +1,15 @@
-[00:06:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-877, y=64, z=821} BlockPos{x=-523, y=69, z=-67}
-[00:14:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-854, y=50, z=-311} BlockPos{x=-783, y=65, z=-546}
-[00:14:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-854, y=50, z=-311} BlockPos{x=-783, y=65, z=-546}
-[00:22:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
-[00:24:04] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:24:04] [Server thread/INFO]: Storyseek3r left the game
-[00:24:55] [Server thread/INFO]: ViceIsTrash lost connection: Timed out
-[00:24:55] [Server thread/INFO]: ViceIsTrash left the game
-[00:25:08] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:7635] logged in with entity id 53991 at (530.5105666598164, 78.0, -1653.6889023833023)
-[00:25:08] [Server thread/INFO]: ViceIsTrash joined the game
-[00:25:46] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
-[00:25:46] [Server thread/INFO]: OumaKazuya left the game
-[00:28:06] [Server thread/INFO]: Storyseek3r[/100.106.115.94:58000] logged in with entity id 54971 at (546.8232565269245, 63.0, -1792.8863648243953)
-[00:28:06] [Server thread/INFO]: Storyseek3r joined the game
-[00:29:08] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:29:08] [Server thread/INFO]: Storyseek3r left the game
-[00:29:10] [Server thread/INFO]: Storyseek3r[/100.106.115.94:58017] logged in with entity id 55665 at (546.1785684044793, 63.0, -1790.2021188699607)
-[00:29:10] [Server thread/INFO]: Storyseek3r joined the game
-[00:29:22] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:29:22] [Server thread/INFO]: Storyseek3r left the game
-[00:29:23] [Server thread/INFO]: Storyseek3r[/100.106.115.94:61578] logged in with entity id 55894 at (546.1785684044793, 63.0, -1790.2021188699607)
-[00:29:23] [Server thread/INFO]: Storyseek3r joined the game
-[00:29:27] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[00:29:27] [Server thread/INFO]: Storyseek3r left the game
-[00:30:04] [Server thread/INFO]: Storyseek3r[/100.106.115.94:54525] logged in with entity id 56212 at (546.1785684044793, 63.0, -1790.2021188699607)
-[00:30:04] [Server thread/INFO]: Storyseek3r joined the game
-[00:44:33] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[00:44:33] [Server thread/INFO]: ViceIsTrash left the game
-[00:47:45] [Server thread/WARN]: Storyseek3r moved wrongly!
-[00:52:28] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[00:52:28] [Server thread/INFO]: umaaaaaq left the game
-[00:55:01] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=564, y=-5, z=-1809} BlockPos{x=563, y=-6, z=-1809}
-[00:57:28] [Server thread/INFO]: OumaKazuya[/100.123.233.5:57348] logged in with entity id 68821 at (355.5669702075179, 65.0, -1519.7098523355344)
-[00:57:28] [Server thread/INFO]: OumaKazuya joined the game
-[01:00:04] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
-[01:00:04] [Server thread/INFO]: OumaKazuya left the game
-[01:00:29] [Server thread/INFO]: k07eee has made the advancement [We Need to Go Deeper]
-[01:00:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2924ms or 58 ticks behind
-[01:07:04] [Server thread/INFO]: Villager Villager['Leatherworker'/72849, l='ServerLevel[world]', x=574.80, y=111.50, z=-2374.50] died, message: 'Leatherworker was speared by Zombie'
-[01:21:21] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[01:21:21] [Server thread/INFO]: Storyseek3r left the game
-[01:21:23] [Server thread/INFO]: Storyseek3r[/100.106.115.94:52052] logged in with entity id 77639 at (682.7836456816531, 84.0, -3050.699999988079)
-[01:21:23] [Server thread/INFO]: Storyseek3r joined the game
-[01:25:33] [Server thread/INFO]: k07eee lost connection: Disconnected
-[01:25:33] [Server thread/INFO]: k07eee left the game
-[01:25:52] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[01:25:52] [Server thread/INFO]: Storyseek3r left the game
-[01:26:03] [Server thread/INFO]: Stopping server
-[01:26:03] [Server thread/INFO]: Saving players
-[01:26:03] [Server thread/INFO]: Saving worlds
-[01:26:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:26:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:26:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:26:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:26:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:26:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:26:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:26:03] [Server thread/INFO]: Thread RCON Listener stopped
+[00:24:51] [Server thread/INFO]: k07eee lost connection: Disconnected
+[00:24:51] [Server thread/INFO]: k07eee left the game
+[00:24:55] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[00:24:55] [Server thread/INFO]: Storyseek3r left the game
+[00:25:27] [Server thread/INFO]: Stopping server
+[00:25:27] [Server thread/INFO]: Saving players
+[00:25:27] [Server thread/INFO]: Saving worlds
+[00:25:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:25:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:25:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:25:27] [Server thread/INFO]: Thread RCON Listener stopped

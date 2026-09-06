@@ -372,6 +372,7 @@
       "salmon": "2026-08-11 00:59:53 +0800",
       "cooked_beef": "2026-08-11 01:01:11 +0800",
       "golden_carrot": "2026-09-03 14:19:53 +0800",
+      "apple": "2026-09-06 23:01:31 +0800",
       "cooked_rabbit": "2026-08-10 22:34:25 +0800",
       "cooked_cod": "2026-08-10 22:35:32 +0800",
       "rabbit": "2026-08-12 00:33:51 +0800",
@@ -4106,6 +4107,42 @@
   "minecraft:recipes/building_blocks/mangrove_wood": {
     "criteria": {
       "has_log": "2026-09-06 01:15:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_shelf": {
+    "criteria": {
+      "has_stripped_spruce_log": "2026-09-06 23:10:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_log": "2026-09-06 23:10:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-09-06 23:25:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2026-09-06 23:10:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-09-06 23:25:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-09-06 23:22:37 +0800"
     },
     "done": true
   },
