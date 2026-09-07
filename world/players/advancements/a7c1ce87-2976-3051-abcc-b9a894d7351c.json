@@ -5265,21 +5265,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2026-09-06 21:30:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2026-09-06 21:30:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_warped_hyphae": {
     "criteria": {
       "has_log": "2026-09-06 21:36:56 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/warped_fence_gate": {
+  "minecraft:recipes/decorations/warped_hanging_sign": {
     "criteria": {
-      "has_planks": "2026-09-06 22:16:11 +0800"
+      "has_stripped_log": "2026-09-06 21:36:56 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_hyphae": {
+  "minecraft:recipes/decorations/warped_shelf": {
     "criteria": {
-      "has_log": "2026-09-06 21:30:44 +0800"
+      "has_stripped_warped_stem": "2026-09-06 21:36:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-09-06 22:16:11 +0800"
     },
     "done": true
   },
@@ -5325,27 +5343,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2026-09-06 21:30:44 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/warped_fence": {
     "criteria": {
       "has_planks": "2026-09-06 22:16:11 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/warped_hanging_sign": {
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
     "criteria": {
-      "has_stripped_log": "2026-09-06 21:36:56 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/warped_shelf": {
-    "criteria": {
-      "has_stripped_warped_stem": "2026-09-06 21:36:56 +0800"
+      "has_pink_petals": "2026-09-07 16:20:30 +0800"
     },
     "done": true
   },
