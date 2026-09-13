@@ -692,14 +692,19 @@
       "minecraft:skeleton": "2026-08-10 22:41:35 +0800",
       "minecraft:phantom": "2026-08-11 00:34:27 +0800",
       "minecraft:parched": "2026-09-03 21:58:40 +0800",
+      "minecraft:zombified_piglin": "2026-09-14 02:19:17 +0800",
       "minecraft:witch": "2026-08-17 22:23:20 +0800",
       "minecraft:wither_skeleton": "2026-08-17 23:39:26 +0800",
       "minecraft:husk": "2026-09-03 21:58:33 +0800",
+      "minecraft:hoglin": "2026-09-14 02:07:07 +0800",
       "minecraft:cave_spider": "2026-09-01 23:01:56 +0800",
+      "minecraft:piglin": "2026-09-14 02:08:08 +0800",
       "minecraft:breeze": "2026-09-01 22:58:31 +0800",
       "minecraft:enderman": "2026-08-10 23:57:17 +0800",
       "minecraft:stray": "2026-09-01 23:03:17 +0800",
+      "minecraft:magma_cube": "2026-09-14 02:02:11 +0800",
       "minecraft:spider": "2026-08-10 22:11:13 +0800",
+      "minecraft:piglin_brute": "2026-09-14 02:07:50 +0800",
       "minecraft:zombie": "2026-08-10 22:18:14 +0800",
       "minecraft:creeper": "2026-08-10 22:24:03 +0800",
       "minecraft:drowned": "2026-08-13 00:29:08 +0800",
@@ -2975,10 +2980,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2026-08-17 23:24:16 +0800",
       "minecraft:nether_wastes": "2026-08-15 22:39:34 +0800",
+      "minecraft:soul_sand_valley": "2026-09-14 01:55:28 +0800",
       "minecraft:warped_forest": "2026-08-15 22:37:08 +0800",
       "minecraft:basalt_deltas": "2026-08-17 23:28:44 +0800"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
@@ -5509,6 +5515,90 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2026-09-07 23:09:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-09-14 02:02:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2026-09-14 02:06:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_bridge": "2026-09-14 02:08:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2026-09-14 02:00:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2026-09-14 02:06:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-09-14 02:08:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-09-14 02:07:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2026-09-14 02:00:43 +0800"
     },
     "done": true
   },
