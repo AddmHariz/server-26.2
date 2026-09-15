@@ -1,41 +1,183 @@
-[00:23:01] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:7293] logged in with entity id 60069 at (522.4043518423958, 74.0, -1655.7261003006827)
-[00:23:01] [Server thread/INFO]: ViceIsTrash joined the game
-[00:28:11] [Server thread/INFO]: k07eee lost connection: Disconnected
-[00:28:11] [Server thread/INFO]: k07eee left the game
-[00:28:14] [Server thread/INFO]: k07eee[/100.115.56.108:53910] logged in with entity id 62693 at (-521.6055021597926, 68.0, 1755.6783569965924)
-[00:28:14] [Server thread/INFO]: k07eee joined the game
-[00:31:45] [Server thread/INFO]: ViceIsTrash has made the advancement [Hot Stuff]
-[01:19:01] [Server thread/WARN]: k07eee was kicked for floating too long!
-[01:19:01] [Server thread/INFO]: k07eee lost connection: Flying is not enabled on this server
-[01:19:01] [Server thread/INFO]: k07eee left the game
-[01:19:12] [Server thread/INFO]: k07eee[/100.115.56.108:60747] logged in with entity id 87890 at (-545.2701262163765, 69.16610926093821, 1753.2579236258903)
-[01:19:12] [Server thread/INFO]: k07eee joined the game
-[01:22:59] [Server thread/INFO]: k07eee has made the advancement [A Throwaway Joke]
-[01:28:46] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:28:46] [Server thread/INFO]: ViceIsTrash left the game
-[01:28:47] [Server thread/INFO]: k07eee lost connection: Disconnected
-[01:28:47] [Server thread/INFO]: k07eee left the game
-[01:30:48] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:3039] logged in with entity id 93888 at (550.4059006872463, 64.0, -1507.9151337896192)
-[01:30:48] [Server thread/INFO]: ViceIsTrash joined the game
-[01:39:22] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:39:22] [Server thread/INFO]: ViceIsTrash left the game
-[01:39:26] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:3061] logged in with entity id 96005 at (561.2872958685065, 65.0, -1551.3759847293966)
-[01:39:26] [Server thread/INFO]: ViceIsTrash joined the game
-[01:56:54] [Server thread/INFO]: ViceIsTrash has made the advancement [Country Lode, Take Me Home]
-[01:59:07] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[01:59:07] [Server thread/INFO]: ViceIsTrash left the game
-[02:20:30] [Server thread/INFO]: Villager Villager['Villager'/95276, l='ServerLevel[world]', x=580.49, y=66.41, z=-1477.98] died, message: 'Villager tried to swim in lava'
-[02:20:30] [Server thread/INFO]: Villager Villager['Villager'/98271, l='ServerLevel[world]', x=581.29, y=66.41, z=-1477.99] died, message: 'Villager tried to swim in lava'
-[02:49:36] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[02:49:36] [Server thread/INFO]: Storyseek3r left the game
-[02:49:44] [Server thread/INFO]: Stopping server
-[02:49:44] [Server thread/INFO]: Saving players
-[02:49:44] [Server thread/INFO]: Saving worlds
-[02:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:49:44] [Server thread/INFO]: Thread RCON Listener stopped
+[13:04:31] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[13:04:31] [main/INFO]: Mappings not present!
+[13:04:32] [main/INFO]: Loading 48 mods:
+	- fabric-api 0.157.0+26.2
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
+	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
+	   |-- fabric-block-api-v1 3.0.3+ec56b6019e
+	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
+	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-content-registries-v0 11.3.1+37b1aa249e
+	   |-- fabric-convention-tags-v2 4.7.0+1f023a9e9e
+	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
+	   |-- fabric-creative-tab-api-v1 5.0.14+d871b99e9e
+	   |-- fabric-data-attachment-api-v1 2.2.18+515ac5339e
+	   |-- fabric-data-generation-api-v1 25.5.0+aed122aa9e
+	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
+	   |-- fabric-dimensions-v1 5.1.11+515ac5339e
+	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
+	   |-- fabric-events-interaction-v0 5.2.7+515ac5339e
+	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
+	   |-- fabric-item-api-v1 14.4.0+49a69a7b9e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.3+4575b05f9e
+	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
+	   |-- fabric-menu-api-v1 2.0.16+086d547a9e
+	   |-- fabric-message-api-v1 7.0.8+bb2ed3f79e
+	   |-- fabric-model-loading-api-v1 8.0.16+c80601bb9e
+	   |-- fabric-networking-api-v1 6.3.3+72073ef09e
+	   |-- fabric-object-builder-api-v1 24.1.0+6fcd5f039e
+	   |-- fabric-particles-v1 5.0.18+d1756aa99e
+	   |-- fabric-permission-api-v1 1.0.5+e442d8d09e
+	   |-- fabric-recipe-api-v1 9.0.20+11e1c9a39e
+	   |-- fabric-registry-sync-v0 7.1.0+c7bd5b8e9e
+	   |-- fabric-renderer-api-v1 14.1.3+2b0d8a229e
+	   |-- fabric-renderer-indigo 9.1.3+2b0d8a229e
+	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
+	   |-- fabric-rendering-v1 25.3.2+515ac5339e
+	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
+	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   |-- fabric-screen-api-v1 5.2.0+58e078ad9e
+	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
+	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
+	   |-- fabric-tag-api-v1 2.1.4+515ac5339e
+	   |-- fabric-transfer-api-v1 8.0.12+11dbb7d79e
+	   \-- fabric-transitive-access-wideners-v1 8.1.4+67c847259e
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- fallingtree 25
+	- java 26
+	- journeymap 26.2-6.0.4
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 26.2-1.1.0
+	   \-- journeymap-api-fabric 26.2-2.0.0
+	- minecraft 26.2
+	- skinrestorer 2.10.0+26.1-fabric
+	   \-- org_mineskin_java-client 3.4.0
+[13:04:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:04:32] [main/INFO]: Compatibility level set to JAVA_25
+[13:04:32] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:04:32] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:04:33] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[13:04:33] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[13:04:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[13:04:43] [main/INFO]: Initializing ServerSide Packet Registries
+[13:04:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:04:46] [main/INFO]: Loaded 1585 recipes
+[13:04:47] [main/INFO]: Loaded 1688 advancements
+[13:04:47] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.363 ms
+[13:04:47] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[13:04:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@4e35cb81 for service interface journeymap.api.services.ClientPlatformService
+[13:04:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@1e1d971e for service interface journeymap.api.services.CommonPlatformService
+[13:04:47] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[13:04:47] [Server thread/INFO]: Starting minecraft server version 26.2
+[13:04:47] [Server thread/INFO]: Loading properties
+[13:04:47] [Server thread/INFO]: Default game type: SURVIVAL
+[13:04:47] [Server thread/INFO]: Generating keypair
+[13:04:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:04:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:04:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:04:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:04:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:04:48] [Server thread/INFO]: Preparing level "world"
+[13:04:48] [Server thread/INFO]: Loading 0 persistent chunks...
+[13:04:49] [Server thread/INFO]: Preparing spawn area: 100%
+[13:04:49] [Server thread/INFO]: Time elapsed: 463 ms
+[13:04:49] [Server thread/INFO]: Done (1.226s)! For help, type "help"
+[13:04:49] [Server thread/INFO]: Starting remote control listener
+[13:04:49] [Server thread/INFO]: Thread RCON Listener started
+[13:04:49] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[13:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:04:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:04:49] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[13:04:55] [Server thread/INFO]: Storyseek3r[/100.106.115.94:57570] logged in with entity id 62 at (578.634456796689, 67.5, -1480.699999988079)
+[13:04:55] [Server thread/INFO]: Storyseek3r joined the game
+[13:08:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[13:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[13:10:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[13:10:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[15:37:08] [Server thread/INFO]: Villager Villager['Villager'/29949, l='ServerLevel[world]', x=564.26, y=70.00, z=-1582.57] died, message: 'Villager was impaled by Drowned'
+[15:47:07] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[15:47:07] [Server thread/INFO]: Storyseek3r left the game
+[15:47:09] [Server thread/INFO]: Storyseek3r[/100.106.115.94:56023] logged in with entity id 35757 at (601.7957901173043, 64.0, -1489.9218790137363)
+[15:47:09] [Server thread/INFO]: Storyseek3r joined the game
+[15:47:16] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[15:47:16] [Server thread/INFO]: Storyseek3r left the game
+[15:47:17] [Server thread/INFO]: Storyseek3r[/100.106.115.94:56028] logged in with entity id 36067 at (601.7957901173043, 64.0, -1489.9218790137363)
+[15:47:17] [Server thread/INFO]: Storyseek3r joined the game
+[15:47:20] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[15:47:20] [Server thread/INFO]: Storyseek3r left the game
+[15:48:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:48:37] [Server thread/INFO]: Storyseek3r[/100.106.115.94:56152] logged in with entity id 36366 at (601.7957901173043, 64.0, -1489.9218790137363)
+[15:48:37] [Server thread/INFO]: Storyseek3r joined the game
+[16:00:43] [Server thread/INFO]: Villager Villager['Villager'/36409, l='ServerLevel[world]', x=597.60, y=63.94, z=-1477.59] died, message: 'Villager was shot by Storyseek3r'
+[16:25:48] [Server thread/INFO]: k07eee[/100.115.56.108:61447] logged in with entity id 43445 at (-520.4886777879848, 46.0, 1746.7191105422157)
+[16:25:48] [Server thread/INFO]: k07eee joined the game
+[16:25:57] [Server thread/INFO]: [Not Secure] <Storyseek3r> yo
+[16:26:04] [Server thread/INFO]: [Not Secure] <k07eee> yo
+[16:28:15] [Server thread/INFO]: k07eee lost connection: Disconnected
+[16:28:15] [Server thread/INFO]: k07eee left the game
+[16:28:20] [Server thread/INFO]: k07eee[/100.115.56.108:61582] logged in with entity id 44565 at (-521.5124999880791, 61.0, 1754.4267762527684)
+[16:28:20] [Server thread/INFO]: k07eee joined the game
+[16:28:55] [Server thread/INFO]: k07eee lost connection: Disconnected
+[16:28:55] [Server thread/INFO]: k07eee left the game
+[16:30:43] [Server thread/INFO]: k07eee[/100.115.56.108:49791] logged in with entity id 45335 at (-520.9013944099729, 46.0, 1755.0213883537608)
+[16:30:43] [Server thread/INFO]: k07eee joined the game
+[16:39:35] [Server thread/INFO]: k07eee lost connection: Disconnected
+[16:39:35] [Server thread/INFO]: k07eee left the game
+[16:39:39] [Server thread/INFO]: k07eee[/100.115.56.108:60394] logged in with entity id 48373 at (-527.2836999183097, 45.0, 1752.503072043983)
+[16:39:39] [Server thread/INFO]: k07eee joined the game
+[16:50:15] [Server thread/INFO]: k07eee has made the advancement [What a Deal!]
+[17:14:20] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[17:14:20] [Server thread/INFO]: Storyseek3r left the game
+[17:15:19] [Server thread/INFO]: Storyseek3r[/100.106.115.94:60418] logged in with entity id 61898 at (546.6999999880791, 64.0, -1788.5301757238421)
+[17:15:19] [Server thread/INFO]: Storyseek3r joined the game
+[17:35:43] [Server thread/INFO]: k07eee lost connection: Disconnected
+[17:35:43] [Server thread/INFO]: k07eee left the game
+[17:35:48] [Server thread/INFO]: k07eee[/100.115.56.108:52108] logged in with entity id 70338 at (-448.3465628965427, 77.0, 1585.2963440903793)
+[17:35:48] [Server thread/INFO]: k07eee joined the game
+[17:46:49] [Server thread/INFO]: k07eee lost connection: Disconnected
+[17:46:49] [Server thread/INFO]: k07eee left the game
+[17:46:55] [Server thread/INFO]: k07eee[/100.115.56.108:56524] logged in with entity id 76537 at (-579.3534066205873, 66.93050451123717, 1755.2935557490837)
+[17:46:55] [Server thread/INFO]: k07eee joined the game
+[17:47:59] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=514, y=63, z=-1643} BlockPos{x=533, y=62, z=-1815}
+[17:47:59] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=514, y=63, z=-1643} BlockPos{x=533, y=62, z=-1815}
+[17:47:59] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=514, y=63, z=-1643} BlockPos{x=533, y=62, z=-1815}
+[17:48:32] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=538, y=60, z=-1819} BlockPos{x=538, y=61, z=-1819}
+[17:58:53] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=463, y=61, z=-1681} BlockPos{x=463, y=62, z=-1679}
+[17:58:53] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=463, y=61, z=-1681} BlockPos{x=463, y=62, z=-1679}
+[17:58:53] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=463, y=61, z=-1681} BlockPos{x=463, y=62, z=-1679}
+[18:04:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-68, y=52, z=209} BlockPos{x=-68, y=55, z=206}
+[18:32:10] [Server thread/INFO]: Villager Villager['Farmer'/95134, l='ServerLevel[world]', x=-192.50, y=60.24, z=1407.82] died, message: 'Farmer was slain by Zombie'
+[18:50:36] [Server thread/INFO]: k07eee lost connection: Disconnected
+[18:50:36] [Server thread/INFO]: k07eee left the game
+[18:50:39] [Server thread/INFO]: k07eee[/100.115.56.108:53116] logged in with entity id 111970 at (-182.36896008760382, 63.0, 1405.4247000306618)
+[18:50:39] [Server thread/INFO]: k07eee joined the game
+[18:52:10] [Server thread/INFO]: Villager Villager['Villager'/112816, l='ServerLevel[world]', x=-33.85, y=27.34, z=177.05] died, message: 'Villager tried to swim in lava'
+[19:00:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-627, y=64, z=1723} BlockPos{x=-627, y=64, z=1722}
+[19:21:28] [Server thread/INFO]: k07eee lost connection: Disconnected
+[19:21:28] [Server thread/INFO]: k07eee left the game
+[19:21:50] [Server thread/INFO]: k07eee[/100.115.56.108:58575] logged in with entity id 125139 at (-612.2447432126063, 67.0, 1728.9898681431744)
+[19:21:50] [Server thread/INFO]: k07eee joined the game
+[19:22:23] [Server thread/INFO]: k07eee lost connection: Disconnected
+[19:22:23] [Server thread/INFO]: k07eee left the game
+[19:22:39] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[19:22:39] [Server thread/INFO]: Storyseek3r left the game
+[19:23:26] [Server thread/INFO]: Stopping server
+[19:23:26] [Server thread/INFO]: Saving players
+[19:23:26] [Server thread/INFO]: Saving worlds
+[19:23:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:23:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:23:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:23:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:23:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:23:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:23:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:23:26] [Server thread/INFO]: Thread RCON Listener stopped
