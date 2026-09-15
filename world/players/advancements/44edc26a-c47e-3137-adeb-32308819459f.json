@@ -250,16 +250,19 @@
       "minecraft:pillager": "2026-08-19 23:34:59 +0800",
       "minecraft:zombie_nautilus": "2026-09-03 14:14:11 +0800",
       "minecraft:skeleton": "2026-08-10 22:42:08 +0800",
+      "minecraft:elder_guardian": "2026-09-16 00:33:18 +0800",
       "minecraft:phantom": "2026-08-11 00:34:16 +0800",
       "minecraft:wither_skeleton": "2026-08-17 23:32:17 +0800",
       "minecraft:ghast": "2026-08-28 00:16:10 +0800",
       "minecraft:hoglin": "2026-09-14 02:06:59 +0800",
       "minecraft:cave_spider": "2026-09-01 23:03:55 +0800",
       "minecraft:piglin": "2026-09-14 02:10:08 +0800",
+      "minecraft:guardian": "2026-09-16 00:27:05 +0800",
       "minecraft:breeze": "2026-09-01 23:00:43 +0800",
       "minecraft:zombie_horse": "2026-09-14 22:22:40 +0800",
       "minecraft:stray": "2026-08-10 22:27:53 +0800",
       "minecraft:enderman": "2026-08-13 00:53:58 +0800",
+      "minecraft:magma_cube": "2026-09-15 22:19:38 +0800",
       "minecraft:spider": "2026-08-10 22:20:59 +0800",
       "minecraft:piglin_brute": "2026-09-14 02:10:15 +0800",
       "minecraft:zombie": "2026-08-10 22:23:23 +0800",
@@ -4748,6 +4751,144 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2026-09-15 18:14:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_slab": "2026-09-15 22:37:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-09-15 23:56:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-09-16 00:01:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-09-16 00:27:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2026-09-16 00:41:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-09-16 00:33:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-09-16 00:47:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-09-16 00:27:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-09-15 23:56:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-09-16 00:27:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2026-09-16 00:41:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_bricks_stonecutting": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-09-16 00:47:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-09-16 00:41:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-09-16 00:27:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-09-16 00:41:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-09-16 00:47:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2026-09-16 00:42:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_bricks_stonecutting": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-09-16 00:47:00 +0800"
     },
     "done": true
   },
