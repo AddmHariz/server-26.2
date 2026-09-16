@@ -5002,5 +5002,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2026-09-16 23:27:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-09-16 23:44:04 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
