@@ -2778,5 +2778,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-09-16 22:22:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-09-16 22:22:56 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
