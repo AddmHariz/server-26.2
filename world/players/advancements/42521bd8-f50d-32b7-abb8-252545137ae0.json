@@ -708,7 +708,8 @@
       "minecraft:phantom": "2026-09-07 23:21:50 +0800",
       "minecraft:enderman": "2026-09-05 23:46:50 +0800",
       "minecraft:spider": "2026-08-17 23:21:56 +0800",
-      "minecraft:zombie": "2026-08-17 23:27:08 +0800"
+      "minecraft:zombie": "2026-08-17 23:27:08 +0800",
+      "minecraft:drowned": "2026-09-20 00:47:30 +0800"
     },
     "done": false
   },
@@ -2227,6 +2228,54 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2026-09-19 21:30:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-09-20 00:51:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-09-20 00:47:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-09-20 00:11:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-09-20 00:51:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-09-20 00:47:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-09-20 00:47:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-09-20 00:51:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-09-20 00:11:02 +0800"
     },
     "done": true
   },
