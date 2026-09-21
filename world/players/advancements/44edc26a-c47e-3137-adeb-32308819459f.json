@@ -5509,39 +5509,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
-    "criteria": {
-      "has_red_wool": "2026-09-21 01:12:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_banner": {
-    "criteria": {
-      "has_red_wool": "2026-09-21 01:12:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-09-21 01:08:36 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_red_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-09-21 01:08:36 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2026-09-21 01:02:20 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_candle": {
-    "criteria": {
-      "has_red_dye": "2026-09-21 01:08:36 +0800"
     },
     "done": true
   },
@@ -5557,18 +5527,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/red_bundle": {
-    "criteria": {
-      "has_red_dye": "2026-09-21 01:08:36 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-09-21 01:08:36 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2026-09-21 01:02:20 +0800"
@@ -5581,15 +5539,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2026-09-21 01:02:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-09-21 01:08:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-09-21 01:08:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2026-09-21 01:08:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2026-09-21 01:08:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-09-21 01:08:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/dye_red_harness": {
     "criteria": {
       "has_needed_dye": "2026-09-21 01:08:36 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_slab": {
+  "minecraft:recipes/decorations/red_carpet": {
     "criteria": {
-      "has_planks": "2026-09-21 01:02:20 +0800"
+      "has_red_wool": "2026-09-21 01:12:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2026-09-21 01:12:35 +0800"
     },
     "done": true
   },
