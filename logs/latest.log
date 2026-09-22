@@ -1,6 +1,6 @@
-[17:38:21] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
-[17:38:21] [main/INFO]: Mappings not present!
-[17:38:21] [main/INFO]: Loading 48 mods:
+[19:35:05] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[19:35:05] [main/INFO]: Mappings not present!
+[19:35:05] [main/INFO]: Loading 48 mods:
 	- fabric-api 0.157.0+26.2
 	   |-- fabric-api-base 2.0.4+ece063239e
 	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
@@ -56,453 +56,92 @@
 	- minecraft 26.2
 	- skinrestorer 2.10.0+26.1-fabric
 	   \-- org_mineskin_java-client 3.4.0
-[17:38:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/amcha/OneDrive/Documents/GitHub/server-26.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:38:21] [main/INFO]: Compatibility level set to JAVA_25
-[17:38:21] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:38:21] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:38:22] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
-[17:38:22] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[17:38:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[17:38:27] [main/INFO]: Initializing ServerSide Packet Registries
-[17:38:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:38:29] [main/INFO]: Loaded 1585 recipes
-[17:38:29] [main/INFO]: Loaded 1688 advancements
-[17:38:29] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.295 ms
-[17:38:30] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[17:38:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@454fa459 for service interface journeymap.api.services.ClientPlatformService
-[17:38:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@4cc09545 for service interface journeymap.api.services.CommonPlatformService
-[17:38:30] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[17:38:30] [Server thread/INFO]: Starting minecraft server version 26.2
-[17:38:30] [Server thread/INFO]: Loading properties
-[17:38:30] [Server thread/INFO]: Default game type: SURVIVAL
-[17:38:30] [Server thread/INFO]: Generating keypair
-[17:38:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:38:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:38:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:38:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:38:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:38:30] [Server thread/INFO]: Preparing level "world"
-[17:38:30] [Server thread/INFO]: Loading 0 persistent chunks...
-[17:38:30] [Server thread/INFO]: Preparing spawn area: 100%
-[17:38:31] [Server thread/INFO]: Time elapsed: 167 ms
-[17:38:31] [Server thread/INFO]: Done (0.451s)! For help, type "help"
-[17:38:31] [Server thread/INFO]: Starting remote control listener
-[17:38:31] [Server thread/INFO]: Thread RCON Listener started
-[17:38:31] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[17:38:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:38:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:38:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:38:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:38:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:38:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:38:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:38:31] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[17:38:52] [Server thread/INFO]: Storyseek3r[/100.106.115.94:54171] logged in with entity id 36 at (583.3000000119209, 60.5, -1475.6453721674336)
-[17:38:52] [Server thread/INFO]: Storyseek3r joined the game
-[17:45:48] [Server thread/WARN]: Storyseek3r moved too quickly! -2.817625474638021,-0.5175000131130219,-9.607845947207352
-[18:05:17] [Server thread/INFO]: Villager Villager['Shepherd'/5997, l='ServerLevel[world]', x=597.46, y=63.94, z=-1476.36] died, message: 'Shepherd was slain by Storyseek3r'
-[18:06:35] [Server thread/WARN]: Storyseek3r moved too quickly! -4.7826035420735025,8.37909660016102,-6.415006549294958
-[18:13:13] [Server thread/WARN]: Storyseek3r moved too quickly! 0.6256173910160214,0.7531999805212024,-10.017439626193436
-[18:13:57] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[18:13:57] [Server thread/INFO]: Storyseek3r left the game
-[18:14:12] [Server thread/INFO]: Storyseek3r (/100.106.115.94:51703) lost connection: Disconnected
-[18:14:21] [SkinRestorer-Fetch-2/WARN]: Failed to fetch skin 'mojang:Storyseek3r'
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:1034)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at knot//net.lionarius.skinrestorer.util.WebUtils.executeRequest(WebUtils.java:97)
-	at knot//net.lionarius.skinrestorer.util.WebUtils.executeRequest(WebUtils.java:86)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.fetchProfileWithProperties(YggdrasilSkinProvider.java:34)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.loadSkin(ProfileSkinProvider.java:49)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.loadSkin(ProfileSkinProvider.java:17)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider$1.load(AbstractSkinProvider.java:43)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider$1.load(AbstractSkinProvider.java:40)
-	at knot//com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3556)
-	at knot//com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2307)
-	at knot//com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2180)
-	at knot//com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2071)
-	at knot//com.google.common.cache.LocalCache.get(LocalCache.java:3985)
-	at knot//com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4006)
-	at knot//com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4946)
-	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:53)
-	at knot//net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb87c61$skinrestorer$lambda$skinrestorer$fetchSkin$0$1(ServerLoginPacketListenerImpl.java:1641)
-	at java.base/java.util.Optional.map(Optional.java:264)
-	at knot//net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:1641)
-	at knot//net.minecraft.server.network.ServerLoginPacketListenerImpl.mdb87c61$skinrestorer$lambda$waitForSkin$0$4(ServerLoginPacketListenerImpl.java:1566)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:744)
-	at java.net.http/jdk.internal.net.http.MultiExchange.checkRetryEligible(MultiExchange.java:631)
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$3(MultiExchange.java:538)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:1021)
-	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:1011)
-	at java.base/java.util.concurrent.CompletableFuture$UniExceptionally.tryFire(CompletableFuture.java:995)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
-	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:421)
-	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:389)
-	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:630)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:832)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:781)
-	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:321)
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:118)
-	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:199)
-	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:167)
-	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:297)
-	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:291)
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:71)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1933)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1519)
-	at java.base/java.lang.VirtualThread.run(VirtualThread.java:475)
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:745)
-	... 39 more
-[18:14:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:15:06] [Server thread/INFO]: Storyseek3r (44edc26a-c47e-3137-adeb-32308819459f) lost connection: Timed out
-[18:16:44] [Server thread/INFO]: Storyseek3r[/100.106.115.94:51767] logged in with entity id 9866 at (543.3934198378056, 64.41999998688698, -1516.6321411041974)
-[18:16:44] [Server thread/INFO]: Storyseek3r joined the game
-[18:30:04] [Server thread/INFO]: Villager Villager['Villager'/9774, l='ServerLevel[world]', x=509.37, y=62.71, z=-1535.07] died, message: 'Villager was impaled by Drowned'
-[18:52:02] [Server thread/INFO]: Storyseek3r lost connection: Timed out
-[18:52:02] [Server thread/INFO]: Storyseek3r left the game
-[18:52:17] [Server thread/INFO]: Storyseek3r[/100.106.115.94:56679] logged in with entity id 16177 at (587.7414783325333, 63.9375, -1474.3962443904518)
-[18:52:17] [Server thread/INFO]: Storyseek3r joined the game
-[18:55:09] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=584, y=59, z=-1474} BlockPos{x=583, y=61, z=-1472}
-[18:58:13] [Server thread/WARN]: Storyseek3r moved too quickly! -1.4876495563570415,4.296868706721838,-9.732983713299518
-[18:58:16] [Server thread/WARN]: Storyseek3r moved too quickly! -1.500103973480691,5.771990586716704,-9.303007103095524
-[18:58:23] [Server thread/WARN]: Storyseek3r moved too quickly! 0.055445564066189945,-7.392334186612459,-8.351053671263571
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.1938759301554,-1.4210854715202004E-14,-9.596769378212002
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.232562253693345,-1.4210854715202004E-14,-9.990388345533574
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.2678439627095486,-1.4210854715202004E-14,-10.384642712459481
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.29996181535887,-1.4210854715202004E-14,-10.779469974644599
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.3291401614663982,-1.4210854715202004E-14,-11.174813572706626
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.3555924191146005,-1.4210854715202004E-14,-11.570622338706471
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.379518333701185,-1.4210854715202004E-14,-11.966850042686929
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.4011015106218565,-1.4210854715202004E-14,-12.363454936126118
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.420518699431568,-1.4210854715202004E-14,-12.760399329871461
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.4379328096918016,-1.4210854715202004E-14,-13.157649225455543
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.4534942950475624,-1.4210854715202004E-14,-13.555173964653932
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.467346233792,-1.4210854715202004E-14,-13.952945925262611
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.480315343798452,-1.4210854715202004E-14,-14.350937524111941
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.493781697832901,-1.4210854715202004E-14,-14.7490896972065
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.5095510425356906,-1.4210854715202004E-14,-15.147259798028244
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.529058271441386,-1.4210854715202004E-14,-15.545258215842978
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.5534192437046386,-1.4210854715202004E-14,-15.94287377356136
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.5834784404016773,-1.4210854715202004E-14,-16.33989194410151
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.619856106222187,-1.4210854715202004E-14,-16.736106305379508
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.66298703784787,-1.4210854715202004E-14,-17.131325977602273
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 0.9203811031459281,0.0,-10.269850159356565
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.015216785310031,0.0,-10.653648801612235
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.1191808049555902,0.0,-11.034473739042141
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.2326742007522853,0.0,-11.411899933905033
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.3559029614937117,0.0,-11.785575191008093
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.4889167275108548,0.0,-12.155218200615764
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.6316394887331853,0.0,-12.520615741436131
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.783899457430607,0.0,-12.803286556566036
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 1.9454488588651202,0.0,-12.834893413299596
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 2.1159841289249925,0.0,-12.894451310143495
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 2.295160394644995,0.0,-12.97870943138355
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 2.4826039720944664,0.0,-13.08477994033251
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 2.6774010493799096,0.0,-13.210556785233393
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 2.8782007130987495,0.0,-13.354588592785376
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.083293169589979,0.0,-13.515934218539996
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.2906508893531736,0.0,-13.694028728261173
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.497968363937048,0.0,-13.888543810111969
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.702689099178542,0.0,-14.099260165633495
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 3.902042912242905,0.0,-14.325943162138856
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.093749780198095,0.0,-14.568023506883492
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.275979121165506,0.0,-14.824703576031425
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.447303348911987,0.0,-15.095040552769206
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.606654089197946,0.0,-15.378009744185192
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.753272339953583,0.0,-15.67255359806245
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 4.886662726723898,0.0,-15.977617346681882
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.007250948774981,0.0,-16.292171109916126
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.116209852101292,0.0,-16.615267182478647
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.2153005165387185,0.0,-16.94604043675895
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.306747356193796,0.0,-17.283672162628363
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.392427907721071,0.0,-17.62739778247942
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.473918796276621,0.0,-17.9765104792516
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.552533599958792,0.0,-18.330362815076114
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.629364697130086,0.0,-18.68836546859552
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.7053133696930445,0.0,-19.04998549132756
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.781113146998791,0.0,-19.414744362139118
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.857362102993875,0.0,-19.782213207611903
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 5.934536800835758,0.0,-20.152010556731284
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.013012329017329,0.0,-20.523798282373264
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.093080258906525,0.0,-20.897277356321183
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.174957290759153,0.0,-21.272185414589103
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.258800445663155,0.0,-21.648292446522646
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.344716960844494,0.0,-22.02539753338806
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.432773150738058,0.0,-22.40332570448595
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.52300234749282,0.0,-22.781924925114936
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.615408327723571,0.0,-23.161064298434667
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.709968390999734,0.0,-23.54063240616506
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.806647128473401,0.0,-23.920532421475627
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 6.905390422885944,0.0,-24.300683112256593
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.006138382590507,0.0,-24.68101413750196
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.108818641636276,0.0,-25.061467383362697
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.2140182209201384,0.0,-25.44177626867804
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.322835685253835,0.0,-25.821472450509646
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.436756367910789,0.0,-26.199866165795356
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.556895080615163,0.0,-26.576335458054245
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.684061541242386,0.0,-26.95033474492311
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.818818321836488,0.0,-27.321396058110167
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 7.96092607007904,0.0,-27.689501641575134
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.109521853830756,0.0,-28.05502470341071
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.263237016640574,0.0,-28.41864860361852
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.420908313076552,0.0,-28.78093069496458
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.581543088581384,0.0,-29.142328085156578
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.744307480490988,0.0,-29.503208909324258
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 8.908498439098366,0.0,-29.863870898132973
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.074158773139857,0.0,-30.224243801244256
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.241926052058375,0.0,-30.583953402395764
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.412898883020148,0.0,-30.942343273327197
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.58849733959778,0.0,-31.298481570842796
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.770342350653436,0.0,-31.651150312128948
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 9.937269446449704,0.0,-31.972337588759046
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.09107846312304,0.0,-32.26490212595513
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.229506574461993,0.0,-32.528210202456194
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.354091871366677,0.0,-32.765187465029385
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.466218635610517,0.0,-32.97846699569527
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.567132720756604,0.0,-33.1704185682097
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.657955394982196,0.0,-33.343174978896286
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.739695799619767,0.0,-33.498655744395364
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.813262161844818,0.0,-33.63858842963759
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.87947188609337,0.0,-33.76452784301932
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.939060636338468,0.0,-33.877873312060274
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.992690510138345,0.0,-33.97988423149468
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.040957395279634,0.0,-34.0716940565535
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.084397590755998,0.0,-34.15432289691762
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.123493765649073,0.0,-34.22868885127514
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.158680322120745,0.0,-34.295618208424
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.190348222106309,0.0,-34.35585462826225
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.21884933133822,0.0,-34.4100674046806
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.244500328967433,0.0,-34.45885890216459
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.267586226222193,0.0,-34.502771248736735
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.28836353320105,0.0,-34.542292359604744
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.307063108986654,0.0,-34.57786135844367
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.363704971222774,0.0,-34.61374452490918
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.454525795368,0.0,-34.64957823667464
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.685069389677665
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.71998460447003
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.75413666254531
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.787383757094176
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.81962115809188
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.85077370086378
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.88078901671565
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.907802800266836
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.93211520481873
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.953996368335766
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.97368941497939
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-34.991413156489216
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.007364523425395
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.02172075328781
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.034641359821535
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.046269905393956
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.05673559613183
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.0661547175464
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.074631926594975
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.08226141453656
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.08912795350216
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.09530783840751
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.100869734674916
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.10587544118289
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.11038057692076
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.11443519897739
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.11808435873172
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.12136860242367
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.12432442166801
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.126984658917536
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.129378872378766
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.1315336644368
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.13347297723749
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.13521835871188
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.13678920199732
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.138202960916715
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.13947534391036
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.140620488574314
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.141651118744676
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14257868587333
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14341349626716
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14416482560159
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.1448410219848
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14544959871341
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14599731775479
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14649026487882
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 11.568177234804352,0.0,-35.14693391727883
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.263759625540388
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.264118983965318
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.264442406539274
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.264733486847945
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.264995459118836
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.265231234156545
-[18:59:02] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.265443431684844
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.265634409455288
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.265806289444072
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26596098142977
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266100204213217
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266225504715067
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266338275163662
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26643976856485
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266531112623397
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266613322273997
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266687310957423
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266753900770937
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26681383160144
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266867769347527
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26691631331755
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26696000288939
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.266999323503114
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26703471205451
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26706656174997
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26709522647502
-[18:59:03] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267121024726976
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267144243153098
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267165139736107
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267183946660225
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267200872891408
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267216106499063
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267229816745612
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267242155967324
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267253261266433
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26726325603545
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267272251327313
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26728034708981
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267287633275828
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26729419084313
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267300092653386
-[18:59:04] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267305404282524
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267310184748567
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26731448716805
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26731835934538
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267321844304888
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267324980768308
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26732780358543
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267330344120637
-[18:59:05] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26733263060237
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267334688435767
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267336540485758
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267338207330795
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267339707491374
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267341057635804
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267342272765745
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267343366382647
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267344350637813
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267345236467463
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267346033714148
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26734675123612
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26734739700578
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267347978198586
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26734850127218
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267348972038235
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267349395727706
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26734977704814
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267350120236642
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267350429106273
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267350707089008
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267350957273493
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26735118243937
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26735138508866
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267351567473042
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.2673517316191
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26735187935037
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267352012308493
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.267352131970938
-[18:59:08] [Server thread/WARN]: Jungle Boat (vehicle of Storyseek3r) moved too quickly! 10.734143557798916,0.0,-25.26735223966716
-[19:25:21] [Server thread/INFO]: Storyseek3r lost connection: Timed out
-[19:25:21] [Server thread/INFO]: Storyseek3r left the game
-[19:25:54] [Server thread/INFO]: Storyseek3r[/100.106.115.94:60602] logged in with entity id 22123 at (583.3000000119209, 60.5, -1472.4712250479995)
-[19:25:54] [Server thread/INFO]: Storyseek3r joined the game
-[19:26:17] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[19:26:17] [Server thread/INFO]: Storyseek3r left the game
-[19:26:30] [Server thread/INFO]: Storyseek3r[/100.106.115.94:60624] logged in with entity id 22461 at (583.3000000119209, 60.5, -1472.699999988079)
-[19:26:30] [Server thread/INFO]: Storyseek3r joined the game
-[19:31:15] [Server thread/INFO]: k07eee[/127.0.0.1:50604] logged in with entity id 23843 at (-629.3000000119209, 69.0, 1716.4627300014436)
-[19:31:15] [Server thread/INFO]: k07eee joined the game
-[19:31:31] [Server thread/INFO]: [Not Secure] <k07eee> yo lama
-[19:31:35] [Server thread/INFO]: [Not Secure] <Storyseek3r> yo\
-[19:31:49] [Server thread/INFO]: [Not Secure] <Storyseek3r> kau nk main ke?
-[19:31:52] [Server thread/INFO]: [Not Secure] <k07eee> aku afk iron farm
-[19:32:04] [Server thread/INFO]: [Not Secure] <Storyseek3r> aku jadi host lah
-[19:32:05] [Server thread/INFO]: [Not Secure] <k07eee> stgi kut ku mandi solat lu
-[19:32:11] [Server thread/INFO]: [Not Secure] <Storyseek3r> bnyk kali lag mat
-[19:32:17] [Server thread/INFO]: [Not Secure] <k07eee> ouh okk
-[19:32:24] [Server thread/INFO]: k07eee lost connection: Disconnected
-[19:32:24] [Server thread/INFO]: k07eee left the game
-[19:32:28] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[19:32:28] [Server thread/INFO]: Storyseek3r left the game
-[19:32:54] [Netty NIO IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot//net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:50)
-	at knot//net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14)
-	at knot//net.minecraft.network.PacketEncoder.encode$mixinextras$wrapped$9(PacketEncoder.java:26)
-	at knot//net.minecraft.network.PacketEncoder.mixinextras$bridge$encode$mixinextras$wrapped$9$10(PacketEncoder.java)
-	at knot//net.minecraft.network.PacketEncoder.mdb87c61$fabric-networking-api-v1$lambda$wrapWithContext$0$0(PacketEncoder.java:558)
-	at java.base/jdk.internal.vm.ScopedValueContainer.runWithoutScope(ScopedValueContainer.java:112)
-	at java.base/jdk.internal.vm.ScopedValueContainer.run(ScopedValueContainer.java:98)
-	at java.base/java.lang.ScopedValue$Carrier.run(ScopedValue.java:471)
-	at knot//net.minecraft.network.PacketEncoder.wrapMethod$zhm000$fabric-networking-api-v1$wrapWithContext(PacketEncoder.java:558)
-	at knot//net.minecraft.network.PacketEncoder.encode(PacketEncoder.java)
-	at knot//net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12)
-	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:800)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:737)
-	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at knot//net.minecraft.network.Connection$2.write(Connection.java:489)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:800)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:776)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:859)
-	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at knot//net.minecraft.network.Connection.doSendPacket(Connection.java:325)
-	at knot//net.minecraft.network.Connection.sendPacket(Connection.java:317)
-	at knot//net.minecraft.network.Connection.send(Connection.java:299)
-	at knot//net.minecraft.network.Connection.send(Connection.java:293)
-	at knot//net.minecraft.network.Connection.exceptionCaught(Connection.java:144)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:290)
-	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:272)
-	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:132)
-	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:187)
-	at knot//io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at knot//io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at knot//io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
-	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-[19:33:12] [Server thread/INFO]: Stopping server
-[19:33:12] [Server thread/INFO]: Saving players
-[19:33:12] [Server thread/INFO]: Saving worlds
-[19:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:33:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:33:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:33:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:33:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:33:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:33:12] [Server thread/INFO]: Thread RCON Listener stopped
+[19:35:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:35:06] [main/INFO]: Compatibility level set to JAVA_25
+[19:35:06] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:35:06] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:35:06] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[19:35:06] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[19:35:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[19:35:13] [main/INFO]: Initializing ServerSide Packet Registries
+[19:35:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:35:16] [main/INFO]: Loaded 1585 recipes
+[19:35:16] [main/INFO]: Loaded 1688 advancements
+[19:35:16] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.309 ms
+[19:35:17] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:35:17] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@58a68de4 for service interface journeymap.api.services.ClientPlatformService
+[19:35:17] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@71dd7bb7 for service interface journeymap.api.services.CommonPlatformService
+[19:35:17] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[19:35:17] [Server thread/INFO]: Starting minecraft server version 26.2
+[19:35:17] [Server thread/INFO]: Loading properties
+[19:35:17] [Server thread/INFO]: Default game type: SURVIVAL
+[19:35:17] [Server thread/INFO]: Generating keypair
+[19:35:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:35:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:35:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:35:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:35:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:35:17] [Server thread/INFO]: Preparing level "world"
+[19:35:17] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:35:17] [Server thread/INFO]: Preparing spawn area: 100%
+[19:35:17] [Server thread/INFO]: Time elapsed: 132 ms
+[19:35:17] [Server thread/INFO]: Done (0.497s)! For help, type "help"
+[19:35:17] [Server thread/INFO]: Starting remote control listener
+[19:35:17] [Server thread/INFO]: Thread RCON Listener started
+[19:35:17] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:35:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:35:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:35:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:35:18] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[19:35:40] [Server thread/INFO]: Storyseek3r[/100.106.115.94:58054] logged in with entity id 83 at (583.2918921559732, 68.0, -1477.5295548926106)
+[19:35:40] [Server thread/INFO]: Storyseek3r joined the game
+[20:08:20] [Server thread/INFO]: k07eee[/100.115.56.108:55743] logged in with entity id 6553 at (-618.4875000119209, 63.0, 1691.2751763007316)
+[20:08:20] [Server thread/INFO]: k07eee joined the game
+[20:11:47] [Server thread/INFO]: [Not Secure] <k07eee> jjjjjjjjj
+[20:11:57] [Server thread/INFO]: [Not Secure] <Storyseek3r> ?
+[20:12:08] [Server thread/INFO]: [Not Secure] <k07eee> missclick
+[20:17:18] [Server thread/INFO]: [Not Secure] <Storyseek3r> yo
+[20:17:29] [Server thread/INFO]: [Not Secure] <k07eee> u still have candle in ur posseion
+[20:23:50] [Server thread/WARN]: Storyseek3r moved wrongly!
+[21:28:37] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:1504] logged in with entity id 35061 at (-585.306022510361, 65.0, 1679.5191136497483)
+[21:28:37] [Server thread/INFO]: ViceIsTrash joined the game
+[21:39:31] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[21:39:31] [Server thread/INFO]: ViceIsTrash left the game
+[22:04:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=14, z=460} BlockPos{x=-303, y=16, z=461}
+[22:04:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=14, z=460} BlockPos{x=-303, y=16, z=461}
+[22:04:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=15, z=506} BlockPos{x=-303, y=14, z=505}
+[22:04:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=15, z=506} BlockPos{x=-303, y=14, z=505}
+[22:04:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=15, z=506} BlockPos{x=-303, y=14, z=505}
+[22:04:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=15, z=506} BlockPos{x=-303, y=14, z=505}
+[22:05:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-303, y=15, z=523} BlockPos{x=-303, y=16, z=522}
+[22:05:21] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-296, y=14, z=532} BlockPos{x=-297, y=14, z=532}
+[22:09:52] [Server thread/WARN]: Storyseek3r moved wrongly!
+[22:12:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-305, y=15, z=436} BlockPos{x=-310, y=15, z=441}
+[22:12:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-305, y=15, z=436} BlockPos{x=-310, y=15, z=441}
+[22:12:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-305, y=15, z=436} BlockPos{x=-310, y=15, z=441}
+[22:12:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-305, y=15, z=436} BlockPos{x=-310, y=15, z=441}
+[22:12:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-310, y=16, z=441} BlockPos{x=-312, y=15, z=441}
+[22:14:50] [Server thread/INFO]: Villager Villager['Farmer'/5, l='ServerLevel[world]', x=580.53, y=64.19, z=-1477.13] died, message: 'Farmer was slain by Storyseek3r'
+[22:29:55] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[22:29:55] [Server thread/INFO]: Storyseek3r left the game
+[22:30:10] [Server thread/INFO]: Storyseek3r[/100.106.115.94:51215] logged in with entity id 59976 at (582.5020370647212, 61.0, -1473.300000011921)
+[22:30:10] [Server thread/INFO]: Storyseek3r joined the game
+[22:33:34] [Server thread/INFO]: k07eee lost connection: Disconnected
+[22:33:34] [Server thread/INFO]: k07eee left the game
+[23:04:51] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[23:04:51] [Server thread/INFO]: Storyseek3r left the game
+[23:04:59] [Server thread/INFO]: Stopping server
+[23:04:59] [Server thread/INFO]: Saving players
+[23:04:59] [Server thread/INFO]: Saving worlds
+[23:04:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:04:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:04:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:04:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:04:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:04:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:04:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:04:59] [Server thread/INFO]: Thread RCON Listener stopped
