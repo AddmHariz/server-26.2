@@ -5599,5 +5599,17 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2026-09-22 12:36:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-09-22 14:06:07 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
