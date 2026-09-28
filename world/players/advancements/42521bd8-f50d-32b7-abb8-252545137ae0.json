@@ -2280,27 +2280,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_lapis_lazuli": "2026-09-21 23:59:14 +0800"
+      "diamond_boots": "2026-09-21 22:58:48 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bookshelf": {
+  "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
-      "has_book": "2026-09-21 23:51:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2026-09-21 23:40:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2026-09-21 23:59:14 +0800"
+      "has_stone_slab": "2026-09-21 23:15:18 +0800"
     },
     "done": true
   },
@@ -2310,21 +2298,27 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/misc/book": {
     "criteria": {
-      "diamond_boots": "2026-09-21 22:58:48 +0800"
+      "has_paper": "2026-09-21 23:40:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-09-21 23:40:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-09-21 23:51:40 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2026-09-21 23:51:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2026-09-21 23:59:26 +0800"
     },
     "done": true
   },
@@ -2340,15 +2334,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/armor_stand": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_stone_slab": "2026-09-21 23:15:18 +0800"
+      "has_lapis_lazuli": "2026-09-21 23:59:14 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
-      "has_paper": "2026-09-21 23:40:10 +0800"
+      "has_lapis_lazuli": "2026-09-21 23:59:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-09-21 23:59:26 +0800"
     },
     "done": true
   },

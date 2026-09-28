@@ -1,6 +1,6 @@
-[05:00:57] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
-[05:00:57] [main/INFO]: Mappings not present!
-[05:00:57] [main/INFO]: Loading 48 mods:
+[08:44:10] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[08:44:10] [main/INFO]: Mappings not present!
+[08:44:14] [main/INFO]: Loading 48 mods:
 	- fabric-api 0.157.0+26.2
 	   |-- fabric-api-base 2.0.4+ece063239e
 	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
@@ -56,69 +56,153 @@
 	- minecraft 26.2
 	- skinrestorer 2.10.0+26.1-fabric
 	   \-- org_mineskin_java-client 3.4.0
-[05:00:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/amcha/OneDrive/Documents/GitHub/server-26.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:00:57] [main/INFO]: Compatibility level set to JAVA_25
-[05:00:57] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:00:57] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:00:58] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
-[05:00:58] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[05:00:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[05:01:06] [main/INFO]: Initializing ServerSide Packet Registries
-[05:01:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05:01:08] [main/INFO]: Loaded 1585 recipes
-[05:01:08] [main/INFO]: Loaded 1688 advancements
-[05:01:08] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 2.058 ms
-[05:01:09] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[05:01:09] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@5564e2fd for service interface journeymap.api.services.ClientPlatformService
-[05:01:09] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@26aa2b1e for service interface journeymap.api.services.CommonPlatformService
-[05:01:09] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[05:01:09] [Server thread/INFO]: Starting minecraft server version 26.2
-[05:01:09] [Server thread/INFO]: Loading properties
-[05:01:09] [Server thread/INFO]: Default game type: SURVIVAL
-[05:01:09] [Server thread/INFO]: Generating keypair
-[05:01:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:01:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:01:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:01:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:01:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:01:09] [Server thread/INFO]: Preparing level "world"
-[05:01:10] [Server thread/INFO]: Loading 0 persistent chunks...
-[05:01:10] [Server thread/INFO]: Preparing spawn area: 100%
-[05:01:10] [Server thread/INFO]: Time elapsed: 181 ms
-[05:01:10] [Server thread/INFO]: Done (0.483s)! For help, type "help"
-[05:01:10] [Server thread/INFO]: Starting remote control listener
-[05:01:10] [Server thread/INFO]: Thread RCON Listener started
-[05:01:10] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[05:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:01:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:01:10] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[05:02:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[05:02:12] [Server thread/INFO]: k07eee[/127.0.0.1:57349] logged in with entity id 62 at (-594.4576619271495, 64.0, 1689.699999988079)
-[05:02:12] [Server thread/INFO]: k07eee joined the game
-[05:02:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[05:19:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-618, y=78, z=1744} BlockPos{x=-619, y=77, z=1742}
-[05:19:55] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-618, y=72, z=1743} BlockPos{x=-619, y=70, z=1742}
-[05:22:01] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-614, y=80, z=1744} BlockPos{x=-613, y=78, z=1743}
-[05:22:01] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-613, y=77, z=1743} BlockPos{x=-613, y=78, z=1743}
-[05:22:06] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-613, y=76, z=1743} BlockPos{x=-613, y=74, z=1743}
-[05:22:06] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-613, y=73, z=1743} BlockPos{x=-613, y=74, z=1743}
-[05:22:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=-614, y=74, z=1743} BlockPos{x=-613, y=72, z=1743}
-[05:36:57] [Server thread/INFO]: Villager Villager['Butcher'/16, l='ServerLevel[world]', x=-594.38, y=64.56, z=1671.33] died, message: 'Butcher burned to death'
-[06:30:43] [Server thread/INFO]: k07eee lost connection: Disconnected
-[06:30:43] [Server thread/INFO]: k07eee left the game
-[06:30:49] [Server thread/INFO]: Stopping server
-[06:30:49] [Server thread/INFO]: Saving players
-[06:30:49] [Server thread/INFO]: Saving worlds
-[06:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:30:49] [Server thread/INFO]: Thread RCON Listener stopped
+[08:44:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:44:35] [main/INFO]: Compatibility level set to JAVA_25
+[08:44:37] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:44:37] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:44:38] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[08:44:38] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[08:44:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[08:45:00] [main/INFO]: Initializing ServerSide Packet Registries
+[08:45:01] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:45:04] [main/INFO]: Loaded 1585 recipes
+[08:45:04] [main/INFO]: Loaded 1688 advancements
+[08:45:05] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 2.661 ms
+[08:45:06] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[08:45:06] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@2f2cf52b for service interface journeymap.api.services.ClientPlatformService
+[08:45:06] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@2cbeb423 for service interface journeymap.api.services.CommonPlatformService
+[08:45:06] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[08:45:06] [Server thread/INFO]: Starting minecraft server version 26.2
+[08:45:06] [Server thread/INFO]: Loading properties
+[08:45:06] [Server thread/INFO]: Default game type: SURVIVAL
+[08:45:06] [Server thread/INFO]: Generating keypair
+[08:45:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:45:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:45:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:45:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:45:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:45:06] [Server thread/INFO]: Preparing level "world"
+[08:45:07] [Server thread/INFO]: Loading 0 persistent chunks...
+[08:45:07] [Server thread/INFO]: Preparing spawn area: 100%
+[08:45:07] [Server thread/INFO]: Time elapsed: 90 ms
+[08:45:07] [Server thread/INFO]: Done (0.738s)! For help, type "help"
+[08:45:07] [Server thread/INFO]: Starting remote control listener
+[08:45:07] [Server thread/INFO]: Thread RCON Listener started
+[08:45:07] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[08:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:45:07] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[08:45:46] [Server thread/INFO]: Storyseek3r[/100.106.115.94:50999] logged in with entity id 84 at (583.3000000119209, 60.5, -1472.391555574112)
+[08:45:46] [Server thread/INFO]: Storyseek3r joined the game
+[08:52:10] [Server thread/INFO]: OumaKazuya[/100.123.233.5:56074] logged in with entity id 1476 at (548.1269085449727, 65.0, -1528.497883889439)
+[08:52:10] [Server thread/INFO]: OumaKazuya joined the game
+[08:52:18] [Server thread/INFO]: [Not Secure] <Storyseek3r> yooo
+[08:52:32] [Server thread/INFO]: [Not Secure] <Storyseek3r> I'm actually playing in the uni library
+[08:52:35] [Server thread/INFO]: [Not Secure] <OumaKazuya> woke up too early
+[08:52:43] [Server thread/INFO]: [Not Secure] <OumaKazuya> nahhhhh library huh
+[08:52:49] [Server thread/INFO]: [Not Secure] <OumaKazuya> goon adam goon
+[08:52:55] [Server thread/INFO]: [Not Secure] <Storyseek3r> naaahhh
+[08:53:06] [Server thread/INFO]: [Not Secure] <OumaKazuya> no ones stopping you
+[08:53:22] [Server thread/INFO]: [Not Secure] <Storyseek3r> nah bro I'm at an open room rn
+[08:53:35] [Server thread/INFO]: [Not Secure] <OumaKazuya> theyll never know
+[08:54:22] [Server thread/INFO]: [Not Secure] <Storyseek3r> feels weird now to look down on your screen ngl
+[08:54:34] [Server thread/INFO]: [Not Secure] <OumaKazuya> why
+[08:55:28] [Server thread/INFO]: [Not Secure] <Storyseek3r> my cooler pad is huge and I can also increase the height so I made it so that the cetre of the screen is the same as my eye lvl
+[08:56:05] [Server thread/INFO]: [Not Secure] <OumaKazuya> im doing the same
+[08:56:44] [Server thread/INFO]: [Not Secure] <OumaKazuya> its so nice when our necks aint carrying a fucking building while gaming
+[08:56:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> it has been so long since I played looking down to the screen it feels weird
+[08:56:53] [Server thread/INFO]: [Not Secure] <Storyseek3r> ye
+[08:57:58] [Server thread/INFO]: [Not Secure] <Storyseek3r> I'm just gonna keep mining
+[08:58:42] [Server thread/INFO]: [Not Secure] <OumaKazuya> bro yearn for miners
+[08:59:15] [Server thread/INFO]: [Not Secure] <Storyseek3r> wwwww
+[08:59:30] [Server thread/INFO]: [Not Secure] <Storyseek3r> man I love haste
+[08:59:45] [Server thread/INFO]: [Not Secure] <OumaKazuya> i love the tree mod
+[08:59:53] [Server thread/INFO]: [Not Secure] <Storyseek3r> I just need to complete the beacon and then haste 2 wwill be mine
+[08:59:55] [Server thread/INFO]: [Not Secure] <Storyseek3r> ye
+[08:59:57] [Server thread/INFO]: [Not Secure] <OumaKazuya> i dont think ill ever live in a minecraft world wout it
+[09:00:01] [Server thread/INFO]: [Not Secure] <Storyseek3r> the mod is a life saver
+[09:05:43] [Server thread/INFO]: [Not Secure] <Storyseek3r> currently I have 4 double chest full of stone lol
+[09:07:47] [Server thread/INFO]: [Not Secure] <OumaKazuya> damnnnnnn
+[09:09:55] [Server thread/INFO]: [Not Secure] <OumaKazuya> zzz
+[09:14:37] [Server thread/INFO]: [Not Secure] <Storyseek3r> automati sugarane farm doing pretty good
+[09:14:46] [Server thread/INFO]: [Not Secure] <OumaKazuya> niceee
+[09:20:37] [Server thread/INFO]: [Not Secure] <OumaKazuya> zzz
+[09:26:13] [Server thread/WARN]: Cherry Boat (vehicle of OumaKazuya) moved wrongly! 0.3559843963273579
+[09:26:13] [Server thread/WARN]: Cherry Boat (vehicle of OumaKazuya) moved wrongly! 0.3559843963273579
+[09:26:51] [Server thread/INFO]: [Not Secure] <Storyseek3r> nooo hwy no of all times. the iron farm aint working again
+[09:27:47] [Server thread/INFO]: [Not Secure] <OumaKazuya> idk
+[09:27:55] [Server thread/INFO]: [Not Secure] <OumaKazuya> its always not working when i go there
+[09:28:16] [Server thread/INFO]: [Not Secure] <Storyseek3r> its a bit weird
+[09:28:32] [Server thread/INFO]: [Not Secure] <Storyseek3r> sometimes it works perfectly sometimes it stops completely
+[09:28:39] [Server thread/INFO]: [Not Secure] <OumaKazuya> 50/50
+[09:28:44] [Server thread/INFO]: [Not Secure] <OumaKazuya> the classic gamble
+[09:29:47] [Server thread/INFO]: [Not Secure] <Storyseek3r> wwww
+[09:32:41] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[09:32:41] [Server thread/INFO]: OumaKazuya left the game
+[09:33:30] [Server thread/INFO]: [Not Secure] <Storyseek3r> no goodbye?
+[09:33:32] [Server thread/INFO]: OumaKazuya[/100.123.233.5:55926] logged in with entity id 17377 at (671.8410330627856, 69.0, -3050.300000011921)
+[09:33:32] [Server thread/INFO]: OumaKazuya joined the game
+[09:35:22] [Server thread/INFO]: [Not Secure] <Storyseek3r> might turn the server off in 10 minutes
+[09:35:30] [Server thread/INFO]: [Not Secure] <Storyseek3r> cuz I need to go to class
+[09:35:42] [Server thread/INFO]: [Not Secure] <OumaKazuya> aight
+[09:35:59] [Server thread/INFO]: [Not Secure] <Storyseek3r> tbh I didn't plan on playing minecraft.
+[09:36:04] [Server thread/INFO]: [Not Secure] <OumaKazuya> ill get as much cp while i can
+[09:36:09] [Server thread/INFO]: [Not Secure] <OumaKazuya> ahem xp
+[09:36:27] [Server thread/INFO]: [Not Secure] <Storyseek3r> came here to download a bunch of minecraft vids
+[09:36:29] [Server thread/INFO]: [Not Secure] <Storyseek3r> ayooo
+[09:36:31] [Server thread/INFO]: [Not Secure] <Storyseek3r> cp?
+[09:36:34] [Server thread/INFO]: [Not Secure] <Storyseek3r> nahhhh
+[09:36:37] [Server thread/INFO]: [Not Secure] <OumaKazuya> wwwwwwwwww
+[09:36:44] [Server thread/INFO]: [Not Secure] <OumaKazuya> mb bro
+[09:36:52] [Server thread/INFO]: [Not Secure] <OumaKazuya> x and c are next to each other
+[09:37:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> damn
+[09:38:17] [Server thread/INFO]: [Not Secure] <Storyseek3r> i wanted to afk at the iron farm
+[09:38:27] [Server thread/INFO]: [Not Secure] <Storyseek3r> i need 4.5 stacks of iron
+[09:38:36] [Server thread/INFO]: [Not Secure] <OumaKazuya> cant use copper?
+[09:38:37] [Server thread/INFO]: [Not Secure] <Storyseek3r> to complete my beacon
+[09:38:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> I don't think so
+[09:42:04] [Server thread/INFO]: [Not Secure] <Storyseek3r> ngl
+[09:42:12] [Server thread/INFO]: [Not Secure] <Storyseek3r> cant waif for the sift update
+[09:42:24] [Server thread/INFO]: [Not Secure] <OumaKazuya> i got surprised
+[09:42:31] [Server thread/INFO]: [Not Secure] <OumaKazuya> woke up to a vid of sift drop
+[09:42:38] [Server thread/INFO]: [Not Secure] <OumaKazuya> thought i was drunk
+[09:42:48] [Server thread/INFO]: [Not Secure] <Storyseek3r> I thought it was cap
+[09:42:54] [Server thread/INFO]: [Not Secure] <OumaKazuya> same
+[09:43:05] [Server thread/INFO]: [Not Secure] <Storyseek3r> didn't expect the devs themselves to annouce it
+[09:43:22] [Server thread/INFO]: [Not Secure] <OumaKazuya> insane to think theyre adding another dimension
+[09:43:26] [Server thread/INFO]: [Not Secure] <Storyseek3r> alwthough the ice cave is interesting too ngl
+[09:43:43] [Server thread/INFO]: [Not Secure] <OumaKazuya> ohhh shiii ice caves?
+[09:43:48] [Server thread/INFO]: [Not Secure] <Storyseek3r> I guess it is the aether dimension we've been longing for
+[09:43:55] [Server thread/INFO]: [Not Secure] <Storyseek3r> ye ice caves
+[09:44:08] [Server thread/INFO]: [Not Secure] <OumaKazuya> yeahhhh
+[09:44:15] [Server thread/INFO]: [Not Secure] <OumaKazuya> it gave me aether vibes too
+[09:45:17] [Server thread/INFO]: [Not Secure] <Storyseek3r> it's similar to the dripstone aves
+[09:45:38] [Server thread/INFO]: [Not Secure] <OumaKazuya> ice version of that sounds sickk
+[09:45:52] [Server thread/INFO]: [Not Secure] <Storyseek3r> ye it looks ool ngl
+[09:46:00] [Server thread/INFO]: [Not Secure] <Storyseek3r> well
+[09:46:05] [Server thread/INFO]: [Not Secure] <Storyseek3r> looks like I gotta go
+[09:46:14] [Server thread/INFO]: [Not Secure] <OumaKazuya> farewell brother...
+[09:46:39] [Server thread/INFO]: [Not Secure] <Storyseek3r> i can turn the server on later
+[09:46:44] [Server thread/INFO]: [Not Secure] <Storyseek3r> but oh well
+[09:46:47] [Server thread/INFO]: [Not Secure] <Storyseek3r> bye
+[09:46:49] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[09:46:49] [Server thread/INFO]: Storyseek3r left the game
+[09:46:50] [Server thread/INFO]: [Not Secure] <OumaKazuya> i work at 2
+[09:46:53] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[09:46:53] [Server thread/INFO]: OumaKazuya left the game
+[09:46:58] [Server thread/INFO]: Stopping server
+[09:46:58] [Server thread/INFO]: Saving players
+[09:46:58] [Server thread/INFO]: Saving worlds
+[09:46:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:46:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:46:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:46:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:46:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:46:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:46:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:46:58] [Server thread/INFO]: Thread RCON Listener stopped
