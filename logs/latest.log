@@ -1,6 +1,6 @@
-[15:51:24] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
-[15:51:24] [main/INFO]: Mappings not present!
-[15:51:24] [main/INFO]: Loading 48 mods:
+[08:25:38] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[08:25:38] [main/INFO]: Mappings not present!
+[08:25:38] [main/INFO]: Loading 48 mods:
 	- fabric-api 0.157.0+26.2
 	   |-- fabric-api-base 2.0.4+ece063239e
 	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
@@ -56,231 +56,150 @@
 	- minecraft 26.2
 	- skinrestorer 2.10.0+26.1-fabric
 	   \-- org_mineskin_java-client 3.4.0
-[15:51:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:51:25] [main/INFO]: Compatibility level set to JAVA_25
-[15:51:25] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:51:25] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:51:25] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
-[15:51:25] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[15:51:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[15:51:33] [main/INFO]: Initializing ServerSide Packet Registries
-[15:51:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:51:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
-	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:151)
-	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.getWithEtag(MinecraftClient.java:81)
-	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:65)
-	at knot//com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114)
-	at knot//com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1516)
-Caused by: java.net.UnknownHostException: api.minecraftservices.com
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:574)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
-	at java.base/java.net.Socket.connect(Socket.java:668)
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:516)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:207)
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:289)
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:196)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1008)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:899)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:872)
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:181)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1382)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1307)
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:493)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
-	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:130)
-	... 10 more
-[15:51:35] [main/INFO]: Loaded 1585 recipes
-[15:51:35] [main/INFO]: Loaded 1688 advancements
-[15:51:35] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.927 ms
-[15:51:36] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[15:51:36] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@44681b9e for service interface journeymap.api.services.ClientPlatformService
-[15:51:36] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@603feca4 for service interface journeymap.api.services.CommonPlatformService
-[15:51:36] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[15:51:36] [Server thread/INFO]: Starting minecraft server version 26.2
-[15:51:36] [Server thread/INFO]: Loading properties
-[15:51:36] [Server thread/INFO]: Default game type: SURVIVAL
-[15:51:36] [Server thread/INFO]: Generating keypair
-[15:51:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:51:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:51:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:51:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:51:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:51:36] [Server thread/INFO]: Preparing level "world"
-[15:51:37] [Server thread/INFO]: Loading 0 persistent chunks...
-[15:51:37] [Server thread/INFO]: Preparing spawn area: 100%
-[15:51:37] [Server thread/INFO]: Time elapsed: 130 ms
-[15:51:37] [Server thread/INFO]: Done (0.492s)! For help, type "help"
-[15:51:37] [Server thread/INFO]: Starting remote control listener
-[15:51:37] [Server thread/INFO]: Thread RCON Listener started
-[15:51:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[15:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:51:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:51:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:51:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:51:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:51:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:51:37] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[15:52:33] [Server thread/INFO]: Storyseek3r[/100.106.115.94:65524] logged in with entity id 100 at (575.0763690993002, 63.0, -1804.300000011921)
-[15:52:33] [Server thread/INFO]: Storyseek3r joined the game
-[15:58:18] [Server thread/INFO]: [Not Secure] <Storyseek3r> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-[16:20:27] [Server thread/INFO]: k07eee[/100.115.56.108:50827] logged in with entity id 5209 at (-616.521539663393, 82.0, 1741.300000011921)
-[16:20:27] [Server thread/INFO]: k07eee joined the game
-[16:20:53] [Server thread/INFO]: [Not Secure] <k07eee> yo
-[16:21:01] [Server thread/INFO]: [Not Secure] <Storyseek3r> yo
-[16:21:40] [Server thread/INFO]: k07eee lost connection: Disconnected
-[16:21:40] [Server thread/INFO]: k07eee left the game
-[16:22:07] [Server thread/INFO]: k07eee[/100.115.56.108:54340] logged in with entity id 6325 at (-617.4202764524076, 68.5, 1727.6803240397694)
-[16:22:07] [Server thread/INFO]: k07eee joined the game
-[16:22:12] [Server thread/INFO]: [Not Secure] <k07eee> have u already look at my tower
-[16:22:25] [Server thread/INFO]: [Not Secure] <Storyseek3r> not yet
-[16:22:32] [Server thread/INFO]: [Not Secure] <Storyseek3r> as it laggy?
-[16:22:55] [Server thread/INFO]: [Not Secure] <k07eee> im not sure its because of ur data or mine
-[16:23:00] [Server thread/INFO]: [Not Secure] <k07eee> vc ?
-[16:23:07] [Server thread/INFO]: [Not Secure] <Storyseek3r> sure
-[16:23:10] [Server thread/INFO]: [Not Secure] <Storyseek3r> gimme a minute
-[16:32:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=606, y=67, z=-1805} BlockPos{x=605, y=64, z=-1806}
-[16:32:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=606, y=67, z=-1805} BlockPos{x=605, y=64, z=-1806}
-[16:32:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=606, y=67, z=-1805} BlockPos{x=605, y=64, z=-1806}
-[16:43:38] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=610, y=64, z=-1808} BlockPos{x=610, y=68, z=-1808}
-[16:46:48] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=612, y=65, z=-1821} BlockPos{x=611, y=64, z=-1822}
-[16:46:55] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=65, z=-1820} BlockPos{x=611, y=66, z=-1820}
-[16:47:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=65, z=-1822} BlockPos{x=613, y=66, z=-1822}
-[16:47:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=65, z=-1822} BlockPos{x=613, y=66, z=-1822}
-[16:47:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=65, z=-1822} BlockPos{x=613, y=66, z=-1822}
-[16:47:22] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:22] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=614, y=62, z=-1822}
-[16:47:25] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=611, y=62, z=-1819}
-[16:47:25] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=62, z=-1822} BlockPos{x=611, y=62, z=-1819}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=614, y=63, z=-1817} BlockPos{x=614, y=62, z=-1817}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=63, z=-1814} BlockPos{x=612, y=63, z=-1814}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=63, z=-1814} BlockPos{x=612, y=63, z=-1814}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=63, z=-1814} BlockPos{x=612, y=63, z=-1814}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=63, z=-1814} BlockPos{x=612, y=63, z=-1814}
-[16:48:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=613, y=63, z=-1814} BlockPos{x=612, y=63, z=-1814}
-[16:51:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1806} BlockPos{x=616, y=63, z=-1807}
-[16:51:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1806} BlockPos{x=616, y=63, z=-1807}
-[16:51:35] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1806} BlockPos{x=616, y=63, z=-1807}
-[17:04:01] [Server thread/INFO]: k07eee lost connection: Disconnected
-[17:04:01] [Server thread/INFO]: k07eee left the game
-[17:04:03] [Server thread/INFO]: k07eee[/100.115.56.108:51204] logged in with entity id 30880 at (-618.3000000119209, 63.1875, 1688.300000011921)
-[17:04:03] [Server thread/INFO]: k07eee joined the game
-[17:46:02] [Server thread/WARN]: k07eee moved too quickly! 7.792006766773511,-1.0,-6.307023997286024
-[18:00:59] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=65, z=-1806} BlockPos{x=616, y=66, z=-1806}
-[18:01:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1805} BlockPos{x=616, y=62, z=-1806}
-[18:01:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1805} BlockPos{x=616, y=62, z=-1806}
-[18:01:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1805} BlockPos{x=616, y=62, z=-1806}
-[18:01:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1805} BlockPos{x=616, y=62, z=-1806}
-[18:01:01] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1805} BlockPos{x=616, y=62, z=-1806}
-[18:01:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=615, y=63, z=-1795} BlockPos{x=615, y=64, z=-1796}
-[18:01:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=615, y=63, z=-1795} BlockPos{x=615, y=64, z=-1796}
-[18:01:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=615, y=63, z=-1795} BlockPos{x=615, y=64, z=-1796}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:01:43] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=611, y=68, z=-1793} BlockPos{x=612, y=66, z=-1793}
-[18:02:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1791} BlockPos{x=616, y=62, z=-1792}
-[18:02:20] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=616, y=63, z=-1791} BlockPos{x=616, y=62, z=-1792}
-[18:07:07] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=617, y=66, z=-1792} BlockPos{x=617, y=67, z=-1793}
-[18:07:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=617, y=67, z=-1785} BlockPos{x=617, y=64, z=-1782}
-[18:07:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=617, y=67, z=-1785} BlockPos{x=617, y=64, z=-1782}
-[18:07:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=617, y=67, z=-1785} BlockPos{x=617, y=64, z=-1782}
-[18:10:32] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=65, z=-1777} BlockPos{x=622, y=64, z=-1777}
-[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=638, y=64, z=-1781} BlockPos{x=639, y=66, z=-1781}
-[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=638, y=64, z=-1781} BlockPos{x=639, y=66, z=-1781}
-[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=638, y=64, z=-1781} BlockPos{x=639, y=66, z=-1781}
-[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=638, y=64, z=-1781} BlockPos{x=639, y=66, z=-1781}
-[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=638, y=64, z=-1781} BlockPos{x=639, y=66, z=-1781}
-[18:12:54] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=620, y=63, z=-1814} BlockPos{x=618, y=62, z=-1813}
-[18:12:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=620, y=63, z=-1814} BlockPos{x=621, y=63, z=-1814}
-[18:12:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=620, y=63, z=-1814} BlockPos{x=621, y=63, z=-1814}
-[18:21:47] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=63, z=-1818} BlockPos{x=623, y=65, z=-1817}
-[18:21:47] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=63, z=-1818} BlockPos{x=623, y=65, z=-1817}
-[18:21:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=65, z=-1810} BlockPos{x=623, y=63, z=-1810}
-[18:21:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=65, z=-1810} BlockPos{x=623, y=63, z=-1810}
-[18:21:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=65, z=-1810} BlockPos{x=623, y=63, z=-1810}
-[18:22:14] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=66, z=-1798} BlockPos{x=623, y=65, z=-1797}
-[18:22:14] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=66, z=-1798} BlockPos{x=623, y=65, z=-1797}
-[18:22:14] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=66, z=-1798} BlockPos{x=623, y=65, z=-1797}
-[18:22:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=623, y=66, z=-1798} BlockPos{x=623, y=65, z=-1797}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:24:00] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1823} BlockPos{x=624, y=62, z=-1823}
-[18:28:44] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1819} BlockPos{x=626, y=63, z=-1819}
-[18:29:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=63, z=-1799} BlockPos{x=624, y=63, z=-1799}
-[18:37:29] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=67, z=-1813} BlockPos{x=628, y=66, z=-1814}
-[18:37:29] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=67, z=-1813} BlockPos{x=628, y=66, z=-1814}
-[18:37:29] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=628, y=66, z=-1815} BlockPos{x=628, y=66, z=-1814}
-[18:38:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=636, y=63, z=-1819} BlockPos{x=635, y=63, z=-1819}
-[18:40:16] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=626, y=62, z=-1804} BlockPos{x=626, y=62, z=-1803}
-[18:40:16] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=626, y=62, z=-1804} BlockPos{x=626, y=62, z=-1803}
-[18:40:16] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=626, y=62, z=-1804} BlockPos{x=626, y=62, z=-1803}
-[18:40:16] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=626, y=62, z=-1804} BlockPos{x=626, y=62, z=-1803}
-[18:40:16] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=626, y=62, z=-1804} BlockPos{x=626, y=62, z=-1803}
-[18:40:22] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=630, y=65, z=-1812} BlockPos{x=630, y=65, z=-1813}
-[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:40] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:40] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:40] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:43:40] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=634, y=64, z=-1812} BlockPos{x=634, y=63, z=-1812}
-[18:44:14] [Server thread/INFO]: k07eee lost connection: Disconnected
-[18:44:14] [Server thread/INFO]: k07eee left the game
-[18:48:26] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[18:48:26] [Server thread/INFO]: Storyseek3r left the game
-[18:49:04] [Server thread/INFO]: Stopping server
-[18:49:04] [Server thread/INFO]: Saving players
-[18:49:04] [Server thread/INFO]: Saving worlds
-[18:49:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:49:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:49:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:49:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:49:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:49:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:49:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:49:04] [Server thread/INFO]: Thread RCON Listener stopped
+[08:25:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:25:39] [main/INFO]: Compatibility level set to JAVA_25
+[08:25:39] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:25:39] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:25:39] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[08:25:39] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[08:25:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[08:25:53] [main/INFO]: Initializing ServerSide Packet Registries
+[08:25:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:25:58] [main/INFO]: Loaded 1585 recipes
+[08:25:58] [main/INFO]: Loaded 1688 advancements
+[08:25:58] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.586 ms
+[08:26:08] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[08:26:08] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@1b40b2d3 for service interface journeymap.api.services.ClientPlatformService
+[08:26:08] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@23334227 for service interface journeymap.api.services.CommonPlatformService
+[08:26:08] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[08:26:08] [Server thread/INFO]: Starting minecraft server version 26.2
+[08:26:08] [Server thread/INFO]: Loading properties
+[08:26:08] [Server thread/INFO]: Default game type: SURVIVAL
+[08:26:08] [Server thread/INFO]: Generating keypair
+[08:26:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:26:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:26:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:26:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:26:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:26:09] [Server thread/INFO]: Preparing level "world"
+[08:26:09] [Server thread/INFO]: Loading 0 persistent chunks...
+[08:26:09] [Server thread/INFO]: Preparing spawn area: 100%
+[08:26:09] [Server thread/INFO]: Time elapsed: 88 ms
+[08:26:09] [Server thread/INFO]: Done (0.508s)! For help, type "help"
+[08:26:09] [Server thread/INFO]: Starting remote control listener
+[08:26:09] [Server thread/INFO]: Thread RCON Listener started
+[08:26:09] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[08:26:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:26:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:26:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:26:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:26:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:26:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:26:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:26:10] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[08:27:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[08:27:26] [Server thread/INFO]: Storyseek3r[/100.106.115.94:58534] logged in with entity id 96 at (545.7312425292635, 63.0, -1790.9004995651137)
+[08:27:26] [Server thread/INFO]: Storyseek3r joined the game
+[08:30:48] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=632, y=65, z=-1806} BlockPos{x=633, y=64, z=-1806}
+[08:30:48] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=632, y=65, z=-1806} BlockPos{x=633, y=64, z=-1806}
+[08:32:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=62, z=-1790} BlockPos{x=625, y=62, z=-1791}
+[08:32:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=625, y=62, z=-1790} BlockPos{x=625, y=62, z=-1791}
+[08:33:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=63, z=-1800} BlockPos{x=628, y=64, z=-1800}
+[08:33:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=63, z=-1800} BlockPos{x=628, y=64, z=-1800}
+[08:33:15] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=63, z=-1800} BlockPos{x=628, y=64, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:33:51] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=64, z=-1800} BlockPos{x=629, y=63, z=-1800}
+[08:34:22] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=631, y=68, z=-1807} BlockPos{x=632, y=62, z=-1800}
+[08:34:22] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=631, y=68, z=-1807} BlockPos{x=632, y=62, z=-1800}
+[08:34:24] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=639, y=63, z=-1798} BlockPos{x=638, y=62, z=-1799}
+[08:34:24] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=639, y=63, z=-1798} BlockPos{x=638, y=62, z=-1799}
+[08:37:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=65, z=-1796} BlockPos{x=628, y=66, z=-1796}
+[08:37:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=629, y=65, z=-1796} BlockPos{x=628, y=66, z=-1796}
+[08:52:00] [Server thread/INFO]: Storyseek3r has reached the goal [Beaconator]
+[09:02:53] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=668, y=67, z=-1825} BlockPos{x=668, y=66, z=-1826}
+[09:07:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=637, y=66, z=-1792} BlockPos{x=638, y=66, z=-1792}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:07:41] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=66, z=-1790} BlockPos{x=636, y=64, z=-1790}
+[09:09:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=64, z=-1815} BlockPos{x=640, y=64, z=-1814}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:09:10] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=640, y=63, z=-1788} BlockPos{x=640, y=62, z=-1790}
+[09:11:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=62, z=-1790} BlockPos{x=626, y=65, z=-1782}
+[09:11:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=635, y=62, z=-1790} BlockPos{x=626, y=65, z=-1782}
+[09:12:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=636, y=66, z=-1784} BlockPos{x=636, y=67, z=-1785}
+[09:12:02] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=636, y=66, z=-1784} BlockPos{x=636, y=67, z=-1785}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:15:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=641, y=63, z=-1782} BlockPos{x=641, y=62, z=-1783}
+[09:18:37] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=642, y=63, z=-1808} BlockPos{x=641, y=62, z=-1807}
+[09:18:37] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=642, y=63, z=-1808} BlockPos{x=641, y=62, z=-1807}
+[09:18:37] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=642, y=63, z=-1808} BlockPos{x=641, y=62, z=-1807}
+[09:18:38] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=642, y=63, z=-1808} BlockPos{x=641, y=62, z=-1807}
+[09:18:38] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=642, y=63, z=-1808} BlockPos{x=641, y=62, z=-1807}
+[09:20:24] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=650, y=63, z=-1822} BlockPos{x=648, y=62, z=-1823}
+[09:20:24] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=650, y=63, z=-1822} BlockPos{x=648, y=62, z=-1823}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:21:36] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=657, y=65, z=-1816} BlockPos{x=657, y=65, z=-1815}
+[09:23:39] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=663, y=62, z=-1817} BlockPos{x=658, y=61, z=-1820}
+[09:23:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=654, y=65, z=-1816} BlockPos{x=653, y=66, z=-1816}
+[09:23:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=654, y=65, z=-1816} BlockPos{x=653, y=66, z=-1816}
+[09:23:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=654, y=65, z=-1816} BlockPos{x=653, y=66, z=-1816}
+[09:23:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=654, y=65, z=-1816} BlockPos{x=653, y=66, z=-1816}
+[09:23:42] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=654, y=65, z=-1816} BlockPos{x=653, y=66, z=-1816}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:24:03] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=644, y=64, z=-1809} BlockPos{x=644, y=63, z=-1808}
+[09:25:43] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[09:25:43] [Server thread/INFO]: Storyseek3r left the game
+[09:26:29] [Server thread/INFO]: Stopping server
+[09:26:29] [Server thread/INFO]: Saving players
+[09:26:29] [Server thread/INFO]: Saving worlds
+[09:26:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:26:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:26:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:26:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:26:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:26:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:26:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:26:30] [Server thread/INFO]: Thread RCON Listener stopped
