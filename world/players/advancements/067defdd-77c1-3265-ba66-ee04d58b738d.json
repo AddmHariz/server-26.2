@@ -4597,5 +4597,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2026-10-02 16:29:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_chestplate_dyed": {
+    "criteria": {
+      "has_leather_chestplate": "2026-10-02 16:12:20 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }

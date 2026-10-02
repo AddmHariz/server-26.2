@@ -5625,12 +5625,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leather_helmet_dyed": {
-    "criteria": {
-      "has_leather_helmet": "2026-09-30 14:28:11 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/leather_chestplate_dyed": {
     "criteria": {
       "has_leather_chestplate": "2026-09-30 14:04:05 +0800"
@@ -5640,6 +5634,12 @@
   "minecraft:recipes/misc/leather_leggings_dyed": {
     "criteria": {
       "has_leather_leggings": "2026-09-30 14:28:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_helmet_dyed": {
+    "criteria": {
+      "has_leather_helmet": "2026-09-30 14:28:11 +0800"
     },
     "done": true
   },
