@@ -1,6 +1,6 @@
-[16:01:36] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
-[16:01:36] [main/INFO]: Mappings not present!
-[16:01:36] [main/INFO]: Loading 48 mods:
+[05:42:39] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[05:42:39] [main/INFO]: Mappings not present!
+[05:42:39] [main/INFO]: Loading 48 mods:
 	- fabric-api 0.157.0+26.2
 	   |-- fabric-api-base 2.0.4+ece063239e
 	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
@@ -56,82 +56,50 @@
 	- minecraft 26.2
 	- skinrestorer 2.10.0+26.1-fabric
 	   \-- org_mineskin_java-client 3.4.0
-[16:01:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:01:36] [main/INFO]: Compatibility level set to JAVA_25
-[16:01:37] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:01:37] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:01:37] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
-[16:01:37] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[16:01:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[16:01:46] [main/INFO]: Initializing ServerSide Packet Registries
-[16:01:47] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:01:49] [main/INFO]: Loaded 1585 recipes
-[16:01:49] [main/INFO]: Loaded 1688 advancements
-[16:01:49] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 2.093 ms
-[16:01:50] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[16:01:50] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@43f6c8d6 for service interface journeymap.api.services.ClientPlatformService
-[16:01:50] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@2902c4ce for service interface journeymap.api.services.CommonPlatformService
-[16:01:50] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[16:01:50] [Server thread/INFO]: Starting minecraft server version 26.2
-[16:01:50] [Server thread/INFO]: Loading properties
-[16:01:50] [Server thread/INFO]: Default game type: SURVIVAL
-[16:01:50] [Server thread/INFO]: Generating keypair
-[16:01:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:01:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:01:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:01:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:01:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:01:50] [Server thread/INFO]: Preparing level "world"
-[16:01:51] [Server thread/INFO]: Loading 0 persistent chunks...
-[16:01:51] [Server thread/INFO]: Preparing spawn area: 100%
-[16:01:51] [Server thread/INFO]: Time elapsed: 163 ms
-[16:01:51] [Server thread/INFO]: Done (0.587s)! For help, type "help"
-[16:01:51] [Server thread/INFO]: Starting remote control listener
-[16:01:51] [Server thread/INFO]: Thread RCON Listener started
-[16:01:51] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[16:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:01:51] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[16:02:37] [Server thread/INFO]: Storyseek3r[/100.106.115.94:52928] logged in with entity id 26 at (676.6999999880791, 78.0, -3050.300000011921)
-[16:02:37] [Server thread/INFO]: Storyseek3r joined the game
-[16:04:54] [Server thread/INFO]: umaaaaaq[/100.124.143.21:58834] logged in with entity id 2161 at (423.7559125722777, 65.0, -1543.7927504501768)
-[16:04:54] [Server thread/INFO]: umaaaaaq joined the game
-[16:05:53] [Server thread/INFO]: k07eee[/100.115.56.108:60535] logged in with entity id 3169 at (-547.3000000119209, 65.9375, 1755.0622480908091)
-[16:05:53] [Server thread/INFO]: k07eee joined the game
-[16:06:48] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=662, y=68, z=-1824} BlockPos{x=666, y=66, z=-1824}
-[16:08:27] [Server thread/INFO]: k07eee lost connection: Disconnected
-[16:08:27] [Server thread/INFO]: k07eee left the game
-[16:09:49] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=651, y=65, z=-1805} BlockPos{x=651, y=64, z=-1806}
-[16:10:08] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:2783] logged in with entity id 6234 at (472.4355531593774, 64.5, -1618.6088686719736)
-[16:10:08] [Server thread/INFO]: ViceIsTrash joined the game
-[16:12:21] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=646, y=62, z=-1798} BlockPos{x=649, y=65, z=-1809}
-[16:16:45] [Server thread/INFO]: [Not Secure] <Storyseek3r> zzzzz
-[16:16:46] [Server thread/INFO]: [Not Secure] <Storyseek3r> zzzzz
-[16:16:48] [Server thread/INFO]: [Not Secure] <Storyseek3r> zzzzz
-[16:17:00] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
-[16:17:00] [Server thread/INFO]: ViceIsTrash left the game
-[16:24:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=664, y=67, z=-1811} BlockPos{x=664, y=66, z=-1811}
-[16:24:23] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=664, y=67, z=-1811} BlockPos{x=664, y=66, z=-1811}
-[16:24:25] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=382, y=66, z=-1553} BlockPos{x=383, y=65, z=-1555}
-[16:24:25] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=384, y=66, z=-1553} BlockPos{x=382, y=65, z=-1555}
-[16:24:57] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=650, y=66, z=-1801} BlockPos{x=650, y=67, z=-1800}
-[16:33:09] [Server thread/INFO]: umaaaaaq lost connection: Disconnected
-[16:33:09] [Server thread/INFO]: umaaaaaq left the game
-[16:33:44] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[16:33:44] [Server thread/INFO]: Storyseek3r left the game
-[16:34:09] [Server thread/INFO]: Stopping server
-[16:34:09] [Server thread/INFO]: Saving players
-[16:34:09] [Server thread/INFO]: Saving worlds
-[16:34:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:34:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:34:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:34:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:34:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:34:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:34:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:34:10] [Server thread/INFO]: Thread RCON Listener stopped
+[05:42:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/amcha/OneDrive/Documents/GitHub/server-26.2/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:42:39] [main/INFO]: Compatibility level set to JAVA_25
+[05:42:39] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:42:39] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:42:40] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[05:42:40] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[05:42:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[05:42:45] [main/INFO]: Initializing ServerSide Packet Registries
+[05:42:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:42:46] [main/INFO]: Loaded 1585 recipes
+[05:42:46] [main/INFO]: Loaded 1688 advancements
+[05:42:46] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.216 ms
+[05:42:47] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[05:42:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@2b5ea2a4 for service interface journeymap.api.services.ClientPlatformService
+[05:42:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@4d7bae0d for service interface journeymap.api.services.CommonPlatformService
+[05:42:47] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[05:42:47] [Server thread/INFO]: Starting minecraft server version 26.2
+[05:42:47] [Server thread/INFO]: Loading properties
+[05:42:47] [Server thread/INFO]: Default game type: SURVIVAL
+[05:42:47] [Server thread/INFO]: Generating keypair
+[05:42:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:42:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:42:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:42:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:42:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:42:47] [Server thread/INFO]: Preparing level "world"
+[05:42:47] [Server thread/INFO]: Loading 0 persistent chunks...
+[05:42:48] [Server thread/INFO]: Preparing spawn area: 100%
+[05:42:48] [Server thread/INFO]: Time elapsed: 477 ms
+[05:42:48] [Server thread/INFO]: Done (0.744s)! For help, type "help"
+[05:42:48] [Server thread/INFO]: Starting remote control listener
+[05:42:48] [Server thread/INFO]: Thread RCON Listener started
+[05:42:48] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[05:42:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:42:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:42:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:42:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:42:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:42:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:42:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:42:48] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[05:43:38] [Server thread/INFO]: k07eee[/127.0.0.1:59695] logged in with entity id 57 at (-614.6485004750006, 68.0, 1727.0368608654455)
+[05:43:38] [Server thread/INFO]: k07eee joined the game
+[05:45:36] [Server thread/WARN]: k07eee moved too quickly! -4.520616295579771,0.3015347236627832,-9.254076151029267
+[05:45:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4929ms or 98 ticks behind
+[07:10:01] [Server thread/INFO]: k07eee lost connection: Disconnected
+[07:10:01] [Server thread/INFO]: k07eee left the game
