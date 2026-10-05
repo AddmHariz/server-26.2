@@ -1,0 +1,55 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 11394,
+      "minecraft:walk_one_cm": 65214,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 2449,
+      "minecraft:damage_taken": 292,
+      "minecraft:boat_one_cm": 58102,
+      "minecraft:play_time": 12387,
+      "minecraft:jump": 322,
+      "minecraft:time_since_death": 11368,
+      "minecraft:drop": 1,
+      "minecraft:open_enderchest": 1,
+      "minecraft:sprint_one_cm": 22571,
+      "minecraft:open_chest": 5,
+      "minecraft:fall_one_cm": 7470,
+      "minecraft:total_world_time": 12387,
+      "minecraft:fly_one_cm": 58422,
+      "minecraft:walk_on_water_one_cm": 2712,
+      "minecraft:crouch_one_cm": 108,
+      "minecraft:sneak_time": 17,
+      "minecraft:deaths": 1
+    },
+    "minecraft:used": {
+      "minecraft:spruce_boat": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:dirt": 3
+    },
+    "minecraft:dropped": {
+      "minecraft:pumpkin": 1
+    },
+    "minecraft:mined": {
+      "minecraft:powder_snow": 3,
+      "minecraft:spruce_log": 3,
+      "minecraft:dirt": 3,
+      "minecraft:pumpkin": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:spruce_leaves": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 3,
+      "minecraft:dirt": 3,
+      "minecraft:spruce_boat": 1,
+      "minecraft:pumpkin": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:spruce_boat": 1,
+      "minecraft:spruce_planks": 12,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4903
+}
