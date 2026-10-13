@@ -1,26 +1,22 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:scaffolding": 2,
-      "minecraft:pumpkin": 1
-    },
-    "minecraft:used": {
-      "minecraft:deepslate_bricks": 2,
-      "minecraft:spruce_boat": 2,
-      "minecraft:crafting_table": 1,
-      "minecraft:copper_chestplate": 1,
-      "minecraft:cooked_porkchop": 2,
-      "minecraft:diamond_leggings": 2,
-      "minecraft:dirt": 3
-    },
     "minecraft:crafted": {
       "minecraft:spruce_boat": 1,
       "minecraft:spruce_planks": 12,
       "minecraft:air": 0,
       "minecraft:crafting_table": 1,
-      "minecraft:emerald": 10
+      "minecraft:emerald": 28
+    },
+    "minecraft:mined": {
+      "minecraft:powder_snow": 3,
+      "minecraft:dirt": 3,
+      "minecraft:spruce_log": 3,
+      "minecraft:pumpkin": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:spruce_leaves": 3
     },
     "minecraft:picked_up": {
+      "minecraft:ink_sac": 2,
       "minecraft:dirt": 8,
       "minecraft:cobblestone": 1,
       "minecraft:spruce_boat": 1,
@@ -35,42 +31,47 @@
       "minecraft:scaffolding": 3,
       "minecraft:diamond_leggings": 2
     },
-    "minecraft:mined": {
-      "minecraft:powder_snow": 3,
-      "minecraft:dirt": 3,
-      "minecraft:spruce_log": 3,
-      "minecraft:pumpkin": 1,
-      "minecraft:grass_block": 1,
-      "minecraft:spruce_leaves": 3
+    "minecraft:used": {
+      "minecraft:deepslate_bricks": 2,
+      "minecraft:spruce_boat": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:copper_chestplate": 1,
+      "minecraft:cooked_porkchop": 3,
+      "minecraft:diamond_leggings": 2,
+      "minecraft:dirt": 3
     },
     "minecraft:custom": {
-      "minecraft:talked_to_villager": 13,
-      "minecraft:time_since_rest": 23414,
-      "minecraft:leave_game": 5,
-      "minecraft:damage_taken": 582,
+      "minecraft:talked_to_villager": 16,
+      "minecraft:time_since_rest": 62994,
+      "minecraft:leave_game": 7,
+      "minecraft:damage_taken": 632,
       "minecraft:boat_one_cm": 58102,
-      "minecraft:time_since_death": 23362,
+      "minecraft:time_since_death": 62942,
       "minecraft:open_enderchest": 2,
       "minecraft:sleep_in_bed": 1,
-      "minecraft:total_world_time": 56540,
-      "minecraft:crouch_one_cm": 1288,
-      "minecraft:climb_one_cm": 11873,
+      "minecraft:total_world_time": 96120,
+      "minecraft:crouch_one_cm": 1290,
+      "minecraft:climb_one_cm": 12147,
       "minecraft:deaths": 2,
-      "minecraft:traded_with_villager": 10,
+      "minecraft:traded_with_villager": 28,
       "minecraft:interact_with_crafting_table": 1,
-      "minecraft:walk_one_cm": 114284,
+      "minecraft:walk_one_cm": 128762,
       "minecraft:walk_under_water_one_cm": 2525,
-      "minecraft:play_time": 56540,
-      "minecraft:jump": 621,
+      "minecraft:play_time": 96120,
+      "minecraft:jump": 717,
       "minecraft:drop": 3,
       "minecraft:open_barrel": 1,
-      "minecraft:sprint_one_cm": 82579,
-      "minecraft:open_chest": 43,
+      "minecraft:sprint_one_cm": 93585,
+      "minecraft:open_chest": 55,
       "minecraft:inspect_hopper": 4,
-      "minecraft:fall_one_cm": 17874,
-      "minecraft:fly_one_cm": 154685,
+      "minecraft:fall_one_cm": 20474,
+      "minecraft:fly_one_cm": 172114,
       "minecraft:walk_on_water_one_cm": 3035,
-      "minecraft:sneak_time": 499
+      "minecraft:sneak_time": 504
+    },
+    "minecraft:dropped": {
+      "minecraft:scaffolding": 2,
+      "minecraft:pumpkin": 1
     }
   },
   "DataVersion": 4903
