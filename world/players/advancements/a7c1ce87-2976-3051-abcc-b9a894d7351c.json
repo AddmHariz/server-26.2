@@ -6235,5 +6235,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_leggings_dyed": {
+    "criteria": {
+      "has_leather_leggings": "2026-10-19 16:06:12 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
