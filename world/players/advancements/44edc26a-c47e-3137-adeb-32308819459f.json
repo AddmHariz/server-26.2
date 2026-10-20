@@ -4375,18 +4375,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2026-09-14 01:57:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2026-09-14 01:57:55 +0800"
-    },
-    "done": true
-  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2026-09-14 01:58:45 +0800"
@@ -6230,5 +6218,5 @@
     },
     "done": true
   },
-  "DataVersion": 4903
+  "DataVersion": 5023
 }
