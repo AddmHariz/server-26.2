@@ -6224,5 +6224,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_slab": {
+    "criteria": {
+      "has_white_wool": "2026-10-20 22:12:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_stairs": {
+    "criteria": {
+      "has_white_wool": "2026-10-20 22:12:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_cushion": {
+    "criteria": {
+      "has_the_recipe": "2026-10-20 22:20:03 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 5023
 }
