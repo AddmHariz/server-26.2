@@ -3076,5 +3076,29 @@
     },
     "done": true
   },
-  "DataVersion": 4903
+  "minecraft:recipes/transportation/poplar_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-10-21 11:29:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-21 11:32:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-10-21 11:43:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2026-10-21 11:41:13 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
 }
