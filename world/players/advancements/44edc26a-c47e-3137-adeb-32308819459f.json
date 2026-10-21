@@ -16,6 +16,7 @@
       "minecraft:deep_cold_ocean": "2026-08-10 23:43:23 +0800",
       "minecraft:ice_spikes": "2026-10-19 15:50:32 +0800",
       "minecraft:frozen_ocean": "2026-08-10 22:28:44 +0800",
+      "minecraft:eroded_badlands": "2026-10-21 16:59:08 +0800",
       "minecraft:desert": "2026-09-17 22:53:18 +0800",
       "minecraft:frozen_river": "2026-08-10 22:28:35 +0800",
       "minecraft:deep_frozen_ocean": "2026-08-11 23:14:23 +0800",
@@ -25,7 +26,9 @@
       "minecraft:old_growth_spruce_taiga": "2026-08-12 22:24:40 +0800",
       "minecraft:snowy_beach": "2026-08-11 22:58:21 +0800",
       "minecraft:bamboo_jungle": "2026-09-16 22:31:42 +0800",
+      "minecraft:wooded_badlands": "2026-10-21 16:41:08 +0800",
       "minecraft:warm_ocean": "2026-09-17 22:56:59 +0800",
+      "minecraft:deep_lukewarm_ocean": "2026-10-21 16:42:26 +0800",
       "minecraft:badlands": "2026-09-18 15:54:03 +0800",
       "minecraft:flower_forest": "2026-08-12 22:33:01 +0800",
       "minecraft:savanna_plateau": "2026-08-12 22:34:17 +0800",
@@ -34,6 +37,7 @@
       "minecraft:dark_forest": "2026-09-03 21:25:23 +0800",
       "minecraft:sparse_jungle": "2026-09-16 22:28:59 +0800",
       "minecraft:river": "2026-08-10 23:33:10 +0800",
+      "minecraft:lukewarm_ocean": "2026-10-21 16:42:21 +0800",
       "minecraft:snowy_plains": "2026-08-10 21:52:39 +0800",
       "minecraft:stony_shore": "2026-08-10 22:28:51 +0800",
       "minecraft:snowy_taiga": "2026-08-11 23:46:27 +0800",
@@ -2261,6 +2265,7 @@
       "minecraft:cat": "2026-10-16 09:35:39 +0800",
       "minecraft:cow": "2026-08-12 22:43:55 +0800",
       "minecraft:fox": "2026-09-18 16:35:01 +0800",
+      "minecraft:turtle": "2026-10-21 16:52:03 +0800",
       "minecraft:sheep": "2026-09-15 18:42:21 +0800"
     },
     "done": false
@@ -6239,6 +6244,168 @@
   "minecraft:recipes/decorations/white_cushion": {
     "criteria": {
       "has_the_recipe": "2026-10-20 22:20:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2026-10-21 14:19:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2026-10-21 14:19:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2026-10-21 16:41:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2026-10-21 16:41:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-21 16:41:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/straw_bed": {
+    "criteria": {
+      "has_hay_block": "2026-10-21 16:39:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2026-10-21 14:39:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-10-21 14:39:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-21 16:32:29 +0800"
     },
     "done": true
   },

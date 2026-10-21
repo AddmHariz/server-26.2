@@ -754,6 +754,7 @@
       "cooked_beef": "2026-08-14 23:20:08 +0800",
       "chorus_fruit": "2026-10-15 23:11:33 +0800",
       "baked_potato": "2026-09-01 23:00:41 +0800",
+      "porkchop": "2026-10-21 17:32:13 +0800",
       "golden_carrot": "2026-09-04 22:26:13 +0800",
       "apple": "2026-08-14 22:13:17 +0800",
       "cooked_rabbit": "2026-08-10 22:28:13 +0800",
@@ -6250,6 +6251,72 @@
   "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
     "criteria": {
       "has_pink_tulip": "2026-10-20 14:20:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-21 13:54:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:32:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:32:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-21 17:13:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_golem_statue_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_golem_statue": "2026-10-21 17:15:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_slab": {
+    "criteria": {
+      "has_white_wool": "2026-10-21 17:33:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_stairs": {
+    "criteria": {
+      "has_white_wool": "2026-10-21 17:33:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_log": "2026-10-21 17:13:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_shelf": {
+    "criteria": {
+      "has_stripped_dark_oak_log": "2026-10-21 17:13:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:32:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_cushion": {
+    "criteria": {
+      "has_white_wool_slab": "2026-10-21 17:48:38 +0800"
     },
     "done": true
   },
