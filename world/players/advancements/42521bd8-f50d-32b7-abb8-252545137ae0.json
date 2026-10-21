@@ -3100,6 +3100,102 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-10-21 17:19:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-10-21 17:19:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2026-10-21 17:28:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-21 17:30:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_slab": {
+    "criteria": {
+      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_slab_from_pink_concrete_stonecutting": {
+    "criteria": {
+      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_stairs": {
+    "criteria": {
+      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_stairs_from_pink_concrete_stonecutting": {
+    "criteria": {
+      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_terracotta": {
     "criteria": {
       "has_terracotta": "2026-10-21 17:39:50 +0800"
@@ -3118,51 +3214,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2026-10-21 17:19:43 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_terracotta": {
     "criteria": {
       "has_terracotta": "2026-10-21 17:39:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:16 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:16 +0800"
     },
     "done": true
   },
@@ -3208,30 +3262,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_concrete_slab": {
-    "criteria": {
-      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_concrete_slab_from_pink_concrete_stonecutting": {
-    "criteria": {
-      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_concrete_stairs": {
-    "criteria": {
-      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_concrete_stairs_from_pink_concrete_stonecutting": {
-    "criteria": {
-      "has_pink_concrete": "2026-10-21 17:38:01 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2026-10-21 17:39:50 +0800"
@@ -3250,12 +3280,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2026-10-21 17:28:58 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_terracotta": {
     "criteria": {
       "has_terracotta": "2026-10-21 17:39:50 +0800"
@@ -3268,33 +3292,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_pink_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_red_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_white_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-10-21 17:30:16 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/brick": {
-    "criteria": {
-      "has_clay_ball": "2026-10-21 17:19:43 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/leather_boots_dyed": {
     "criteria": {
       "has_leather_boots": "2026-10-21 17:52:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-10-21 18:11:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-10-21 18:11:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-21 18:13:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-10-21 18:20:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2026-10-21 18:40:32 +0800"
     },
     "done": true
   },
