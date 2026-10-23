@@ -715,10 +715,11 @@
     "criteria": {
       "minecraft:pillager": "2026-10-19 16:12:48 +0800",
       "minecraft:skeleton": "2026-08-17 23:57:27 +0800",
-      "minecraft:piglin": "2026-10-20 15:07:01 +0800",
       "minecraft:phantom": "2026-09-07 23:21:50 +0800",
-      "minecraft:enderman": "2026-09-05 23:46:50 +0800",
       "minecraft:witch": "2026-10-19 15:17:22 +0800",
+      "minecraft:piglin": "2026-10-20 15:07:01 +0800",
+      "minecraft:zombie_horse": "2026-10-24 00:22:39 +0800",
+      "minecraft:enderman": "2026-09-05 23:46:50 +0800",
       "minecraft:spider": "2026-08-17 23:21:56 +0800",
       "minecraft:zombie": "2026-08-17 23:27:08 +0800",
       "minecraft:creeper": "2026-10-19 16:09:08 +0800",
@@ -3373,6 +3374,84 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_item_frame": "2026-10-21 18:40:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_purple_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 23:18:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_slab": {
+    "criteria": {
+      "has_purple_concrete": "2026-10-23 23:19:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_slab_from_purple_concrete_stonecutting": {
+    "criteria": {
+      "has_purple_concrete": "2026-10-23 23:19:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_stairs": {
+    "criteria": {
+      "has_purple_concrete": "2026-10-23 23:19:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_stairs_from_purple_concrete_stonecutting": {
+    "criteria": {
+      "has_purple_concrete": "2026-10-23 23:19:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_chain_from_honeycomb": {
+    "criteria": {
+      "has_copper_chain": "2026-10-23 23:50:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_torch": {
+    "criteria": {
+      "has_copper_nugget": "2026-10-23 23:49:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_nuggets": {
+    "criteria": {
+      "has_copper_nugget": "2026-10-23 23:49:55 +0800"
     },
     "done": true
   },

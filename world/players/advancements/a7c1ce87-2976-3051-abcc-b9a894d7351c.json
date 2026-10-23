@@ -6328,12 +6328,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_bowl": "2026-10-23 00:07:24 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
       "has_coast_armor_trim_smithing_template": "2026-10-22 23:55:40 +0800"
@@ -6343,6 +6337,18 @@
   "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-10-22 23:55:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2026-10-23 00:07:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_golem_statue_from_honeycomb": {
+    "criteria": {
+      "has_copper_golem_statue": "2026-10-23 23:44:09 +0800"
     },
     "done": true
   },
