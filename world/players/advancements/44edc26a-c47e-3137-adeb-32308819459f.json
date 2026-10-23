@@ -6440,15 +6440,123 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_cinnabar_from_cinnabar_stonecutting": {
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
     "criteria": {
-      "has_cinnabar": "2026-10-23 00:19:19 +0800"
+      "has_wildflowers": "2026-10-23 00:14:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_from_sulfur_spikes": {
+    "criteria": {
+      "has_sulfur_spike": "2026-10-23 00:18:58 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_sulfur_from_sulfur_stonecutting": {
     "criteria": {
       "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/potent_sulfur": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_brick_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_brick_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_bricks_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_slab": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_stairs": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_sulfur_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_brick_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_wall": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-23 00:19:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_cinnabar_from_cinnabar_stonecutting": {
+    "criteria": {
+      "has_cinnabar": "2026-10-23 00:19:19 +0800"
     },
     "done": true
   },
@@ -6494,12 +6602,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2026-10-23 00:28:36 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_cinnabar": {
     "criteria": {
       "has_cinnabar": "2026-10-23 00:19:19 +0800"
@@ -6524,96 +6626,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_sulfur": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/poplar_planks": {
-    "criteria": {
-      "has_logs": "2026-10-23 00:44:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/poplar_wood": {
-    "criteria": {
-      "has_log": "2026-10-23 00:44:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/potent_sulfur": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_brick_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_brick_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_bricks_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_from_sulfur_spikes": {
-    "criteria": {
-      "has_sulfur_spike": "2026-10-23 00:18:58 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_slab": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_stairs": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cinnabar_brick_wall_from_cinnabar_stonecutting": {
     "criteria": {
       "has_cinnabar": "2026-10-23 00:19:19 +0800"
@@ -6632,51 +6644,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2026-10-23 00:39:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pale_moss_carpet": {
-    "criteria": {
-      "has_pale_moss_block": "2026-10-23 00:41:29 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_cinnabar_wall_from_cinnabar_stonecutting": {
     "criteria": {
       "has_cinnabar": "2026-10-23 00:19:19 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_sulfur_wall_from_sulfur_stonecutting": {
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sulfur_brick_wall_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sulfur_wall": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sulfur_wall_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-23 00:19:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
-    "criteria": {
-      "has_open_eyeblossom": "2026-10-23 00:41:27 +0800"
+      "has_mangrove_roots": "2026-10-23 00:28:36 +0800"
     },
     "done": true
   },
@@ -6692,15 +6668,309 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2026-10-23 00:39:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2026-10-23 00:41:27 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
     "criteria": {
       "has_open_eyeblossom": "2026-10-23 00:41:27 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+  "minecraft:recipes/decorations/pale_moss_carpet": {
     "criteria": {
-      "has_wildflowers": "2026-10-23 00:14:52 +0800"
+      "has_pale_moss_block": "2026-10-23 00:41:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_planks": {
+    "criteria": {
+      "has_logs": "2026-10-23 00:44:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_wood": {
+    "criteria": {
+      "has_log": "2026-10-23 00:44:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:27:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:27:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_slab": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_green_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_lime_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_orange_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_lime_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:27:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-10-23 12:24:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2026-10-23 12:24:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/poplar_fence": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/poplar_sign": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/poplar_button": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/poplar_door": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/poplar_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/poplar_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/poplar_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-23 12:10:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/green_bundle": {
+    "criteria": {
+      "has_green_dye": "2026-10-23 12:29:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lime_bundle": {
+    "criteria": {
+      "has_lime_dye": "2026-10-23 12:29:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/orange_bundle": {
+    "criteria": {
+      "has_orange_dye": "2026-10-23 12:24:43 +0800"
     },
     "done": true
   },
