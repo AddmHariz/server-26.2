@@ -41,18 +41,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2026-08-10 21:57:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_red_mushroom": "2026-08-10 21:57:40 +0800"
-    },
-    "done": true
-  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2026-08-10 21:58:40 +0800"
@@ -2856,5 +2844,11 @@
     },
     "done": true
   },
-  "DataVersion": 4903
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-24 13:22:22 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
 }

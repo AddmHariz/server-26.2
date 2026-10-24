@@ -6975,12 +6975,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
-    "criteria": {
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-10-24 00:22:14 +0800"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/purple_concrete_slab": {
     "criteria": {
       "has_purple_concrete": "2026-10-23 23:55:41 +0800"
@@ -7004,6 +6998,12 @@
       "has_purple_concrete": "2026-10-23 23:55:41 +0800"
     },
     "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-10-24 00:22:14 +0800"
+    },
+    "done": false
   },
   "DataVersion": 5023
 }
