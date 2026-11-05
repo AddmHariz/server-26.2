@@ -1,6 +1,6 @@
-[12:07:41] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.19.5
-[12:07:41] [main/INFO]: Mappings not present!
-[12:07:41] [main/INFO]: Loading 49 mods:
+[14:16:08] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.19.5
+[14:16:08] [main/INFO]: Mappings not present!
+[14:16:08] [main/INFO]: Loading 49 mods:
 	- fabric-api 0.161.0+26.3
 	   |-- fabric-advancement-api-v1 1.0.0+38c7a2d55d
 	   |-- fabric-api-base 2.0.6+fcdff87f5d
@@ -50,26 +50,26 @@
 	- minecraft 26.3
 	- skinrestorer 2.11.0+26.3-fabric
 	   \-- org_mineskin_java-client 3.4.0
-[12:07:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.3/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:07:42] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:07:42] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:07:42] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
-[12:07:42] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[12:07:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
-[12:07:53] [main/INFO]: Initializing ServerSide Packet Registries
-[12:07:53] [main/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
-[12:07:53] [main/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
-[12:07:56] [Worker-Main-8/INFO]: Loaded 1866 advancements
-[12:07:56] [main/INFO]: Applied 0 biome modifications to 0 of 67 new biomes in 2.310 ms
-[12:07:57] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[12:07:57] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@7bbd98fb for service interface journeymap.api.services.ClientPlatformService
-[12:07:57] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@77eae461 for service interface journeymap.api.services.CommonPlatformService
-[12:07:57] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[12:07:57] [Server thread/INFO]: Starting minecraft server version 26.3
-[12:07:57] [Server thread/INFO]: Loading properties
-[12:07:57] [Server thread/INFO]: Default game type: SURVIVAL
-[12:07:57] [Server thread/INFO]: Generating keypair
-[12:07:57] [Server console handler/ERROR]: Exception handling console input
+[14:16:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/adamh/Downloads/server%2026.3/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:16:09] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:16:09] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:16:09] [main/WARN]: Error loading class: net/minecraft/client/renderer/entity/SalmonRenderer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/SalmonRenderer)
+[14:16:09] [main/WARN]: @Mixin target net.minecraft.client.renderer.entity.SalmonRenderer was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[14:16:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[14:16:17] [main/INFO]: Initializing ServerSide Packet Registries
+[14:16:18] [main/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[14:16:18] [main/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[14:16:20] [Worker-Main-6/INFO]: Loaded 1866 advancements
+[14:16:20] [main/INFO]: Applied 0 biome modifications to 0 of 67 new biomes in 1.758 ms
+[14:16:20] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[14:16:20] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@788a07 for service interface journeymap.api.services.ClientPlatformService
+[14:16:20] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@5f341d97 for service interface journeymap.api.services.CommonPlatformService
+[14:16:20] [Server thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[14:16:20] [Server thread/INFO]: Starting minecraft server version 26.3
+[14:16:20] [Server thread/INFO]: Loading properties
+[14:16:20] [Server thread/INFO]: Default game type: SURVIVAL
+[14:16:20] [Server thread/INFO]: Generating keypair
+[14:16:20] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method)
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:281)
@@ -84,31 +84,904 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:333)
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:400)
 	at knot//net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:146)
-[12:07:57] [Server thread/INFO]: Starting Minecraft server on 100.106.115.94:25565
-[12:07:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:07:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:07:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:07:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:07:57] [Server thread/INFO]: Preparing level "world"
-[12:07:58] [Server thread/INFO]: Loading 0 persistent chunks...
-[12:07:58] [Server thread/INFO]: Preparing spawn area: 100%
-[12:07:58] [Server thread/INFO]: Time elapsed: 156 ms
-[12:07:58] [Server thread/INFO]: Done (1.041s)! For help, type "help"
-[12:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12:07:58] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[12:08:06] [Server thread/INFO]: Storyseek3r[/100.106.115.94:61815] logged in with entity id 76 at (579.4875000119209, 71.0, -1480.5255672706478)
-[12:08:06] [Server thread/INFO]: System chat: Storyseek3r joined the game
-[12:08:08] [Server thread/INFO]: JourneyMap client version for Storyseek3r: 6.0.9 (server version: 6.0.9)
-[12:08:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
-[12:08:47] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
-[12:09:27] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
-[12:14:07] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
-[12:14:07] [Server thread/INFO]: System chat: Storyseek3r left the game
-[12:14:12] [Server thread/INFO]: Stopping server
-[12:14:12] [Server thread/INFO]: Saving players
-[12:14:12] [Server thread/INFO]: Saving worlds
-[12:14:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:14:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12:14:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:16:21] [Server thread/INFO]: Starting Minecraft server on 100.106.115.94:25565
+[14:16:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:16:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:16:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:16:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:16:21] [Server thread/INFO]: Preparing level "world"
+[14:16:21] [Server thread/INFO]: Loading 0 persistent chunks...
+[14:16:21] [Server thread/INFO]: Preparing spawn area: 100%
+[14:16:21] [Server thread/INFO]: Time elapsed: 70 ms
+[14:16:21] [Server thread/INFO]: Done (0.453s)! For help, type "help"
+[14:16:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:16:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:16:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:16:21] [Server thread/INFO]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[14:16:36] [Server thread/INFO]: Storyseek3r[/100.106.115.94:52795] logged in with entity id 101 at (545.789410578184, 64.0, -1798.6632660790722)
+[14:16:36] [Server thread/INFO]: System chat: Storyseek3r joined the game
+[14:16:38] [Server thread/INFO]: JourneyMap client version for Storyseek3r: 6.0.9 (server version: 6.0.9)
+[14:18:02] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:18:21] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:18:44] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:20:11] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:20:28] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:20:44] [Server thread/INFO]: OumaKazuya[/100.123.233.5:62603] logged in with entity id 1552 at (352.3870496305848, 64.0, -1510.722862774717)
+[14:20:44] [Server thread/INFO]: System chat: OumaKazuya joined the game
+[14:20:44] [Server thread/INFO]: JourneyMap client version for OumaKazuya: 6.0.10 (server version: 6.0.9)
+[14:20:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:21:00] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[14:21:09] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:21:10] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[14:21:20] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:21:30] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:21:37] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[14:21:37] [Server thread/INFO]: System chat: OumaKazuya left the game
+[14:21:58] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:22:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:22:14] [Server thread/INFO]: OumaKazuya[/100.123.233.5:51156] logged in with entity id 2214 at (294.4487311589929, 64.1212968405392, -1526.8327259923008)
+[14:22:14] [Server thread/INFO]: System chat: OumaKazuya joined the game
+[14:22:14] [Server thread/INFO]: JourneyMap client version for OumaKazuya: 6.0.10 (server version: 6.0.9)
+[14:22:20] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:23:04] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:23:25] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[14:24:11] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[14:24:22] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[14:24:47] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[14:24:47] [Server thread/INFO]: System chat: OumaKazuya left the game
+[14:24:49] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:25:08] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:26:22] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[14:26:22] [Server thread/INFO]: System chat: Storyseek3r left the game
+[14:27:22] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:38:22] [Server thread/INFO]: RayWolford[/100.105.9.45:50169] logged in with entity id 5633 at (215.5, 69.0, 230.5)
+[14:38:22] [Server thread/INFO]: System chat: RayWolford joined the game
+[14:38:57] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:39:08] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:39:19] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:39:56] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:9382] logged in with entity id 6128 at (353.30379577136614, 64.0, -1511.1567182757174)
+[14:39:56] [Server thread/INFO]: System chat: ViceIsTrash joined the game
+[14:39:56] [Server thread/INFO]: JourneyMap client version for ViceIsTrash: 6.0.10 (server version: 6.0.9)
+[14:40:15] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:40:56] [Server thread/INFO]: RayWolford lost connection: Timed out
+[14:40:56] [Server thread/INFO]: System chat: RayWolford left the game
+[14:40:59] [Netty NIO IO #10/WARN]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:227)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:158)
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:592)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:626)
+	at knot//io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:423)
+	at knot//io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:794)
+	at knot//io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:411)
+	at knot//io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:439)
+	at knot//io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
+	at knot//io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+[14:40:59] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[14:40:59] [Server thread/INFO]: System chat: ViceIsTrash left the game
+[14:41:09] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:9425] logged in with entity id 6748 at (350.37808190768, 64.0, -1527.3453862570614)
+[14:41:09] [Server thread/INFO]: System chat: ViceIsTrash joined the game
+[14:41:09] [Server thread/INFO]: JourneyMap client version for ViceIsTrash: 6.0.10 (server version: 6.0.9)
+[14:41:20] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:41:23] [Server thread/INFO]: RayWolford[/100.105.9.45:55346] logged in with entity id 6985 at (200.49028922243917, 63.0, 206.5637965476124)
+[14:41:23] [Server thread/INFO]: System chat: RayWolford joined the game
+[14:41:31] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:41:35] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:41:39] [Server thread/WARN]: ViceIsTrash moved too quickly! 6.354248007565616,13.05629707430775,11.20470185433146
+[14:41:47] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:41:58] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:43:22] [Server thread/INFO]: Afaz07[/100.99.48.98:1829] logged in with entity id 9479 at (493.9420448586528, 63.0, -1562.0893719622338)
+[14:43:22] [Server thread/INFO]: System chat: Afaz07 joined the game
+[14:43:22] [Server thread/INFO]: JourneyMap client version for Afaz07: 6.0.10 (server version: 6.0.9)
+[14:43:26] [Server thread/INFO]: RayWolford lost connection: Disconnected
+[14:43:26] [Server thread/INFO]: System chat: RayWolford left the game
+[14:43:30] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:43:44] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:43:53] [Server thread/INFO]: Storyseek3r[/100.106.115.94:53449] logged in with entity id 9917 at (266.30000001192093, 73.0, 213.30000001192093)
+[14:43:53] [Server thread/INFO]: System chat: Storyseek3r joined the game
+[14:43:56] [Server thread/INFO]: JourneyMap client version for Storyseek3r: 6.0.9 (server version: 6.0.9)
+[14:43:56] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:44:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2119ms or 42 ticks behind
+[14:44:22] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:44:57] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[14:44:57] [Server thread/INFO]: System chat: ViceIsTrash left the game
+[14:45:22] [Server thread/INFO]: RayWolford[/100.105.9.45:58979] logged in with entity id 10263 at (272.4519429695562, 73.0, 215.00575337434924)
+[14:45:22] [Server thread/INFO]: System chat: RayWolford joined the game
+[14:45:25] [Server thread/INFO]: ViceIsTrash[/100.115.248.44:4243] logged in with entity id 10279 at (271.2236164254627, 73.0, 215.69999998807907)
+[14:45:25] [Server thread/INFO]: System chat: ViceIsTrash joined the game
+[14:45:25] [Server thread/INFO]: JourneyMap client version for ViceIsTrash: 6.0.10 (server version: 6.0.9)
+[14:45:35] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:45:51] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:46:01] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:46:26] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:46:33] [Server thread/INFO]: System chat: RayWolford was shot by Storyseek3r
+[14:46:35] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:46:38] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:46:41] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:46:45] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:46:52] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:00] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:47:03] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:16] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:18] [Server thread/INFO]: [Not Secure] <Afaz07> noh xperasan ada zombie villager kat bawah lubang magma
+[14:47:25] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:47:31] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:34] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:47:36] [Server thread/INFO]: [Not Secure] <Afaz07> aku dh terbunuh dh
+[14:47:42] [Server thread/INFO]: [Not Secure] <Afaz07> kat rumah aku
+[14:47:43] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:52] [Server thread/INFO]: RayWolford lost connection: Timed out
+[14:47:52] [Server thread/INFO]: System chat: RayWolford left the game
+[14:47:53] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:47:57] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:48:06] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:48:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:48:17] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:48:20] [Server thread/INFO]: RayWolford[/100.105.9.45:51907] logged in with entity id 11118 at (255.86599330981144, 72.0, 224.01000777704184)
+[14:48:20] [Server thread/INFO]: System chat: RayWolford joined the game
+[14:48:27] [Server thread/INFO]: [Not Secure] <Afaz07> aku lag teruk so aku instinct bunuh je
+[14:48:28] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:48:31] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:48:39] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:48:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:49:00] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:49:01] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:49:11] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:49:24] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:49:24] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:49:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:49:38] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:49:49] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:49:51] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:49:58] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:50:05] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:50:16] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:50:16] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:50:19] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:50:26] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:50:28] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:50:46] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:50:56] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:50:59] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:51:14] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:51:30] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:51:31] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:51:51] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:52:02] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:52:09] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:52:13] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:52:19] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:52:21] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:52:29] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:52:33] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:52:44] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:52:55] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:53:00] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:53:01] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:54:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:54:43] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:54:46] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:55:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:55:55] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:55:55] [Server thread/INFO]: Player Afaz07 standing on air - force-sending blocks below
+[14:55:55] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:56:07] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:56:08] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:56:22] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:56:34] [Server thread/INFO]: Player ViceIsTrash standing on air - force-sending blocks below
+[14:56:39] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:56:49] [Server thread/INFO]: ViceIsTrash lost connection: Disconnected
+[14:56:49] [Server thread/INFO]: System chat: ViceIsTrash left the game
+[14:57:47] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:58:03] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:58:17] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:58:17] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:58:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:58:47] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:58:49] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:59:13] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[14:59:23] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[14:59:26] [Server thread/INFO]: Afaz07 lost connection: Disconnected
+[14:59:26] [Server thread/INFO]: System chat: Afaz07 left the game
+[14:59:30] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.6138684988518435,0.0,-6.503296569978033
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.7969577004997745,0.0,-6.838778861146466
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.969673190542721,0.0,-7.179917918729302
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.132427412230868,0.0,-7.526269387479374
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.28565398171827,0.0,-7.877412437630483
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.429798602151209,0.0,-8.23295134252976
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.56531071265556,0.0,-8.59251625403192
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.692639636248941,0.0,-8.95576283119567
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.812234839649363,0.0,-9.322371116348904
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.924534691811118,0.0,-9.692045700738845
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.029963890320914,0.0,-10.064514562315708
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.128938741952197,0.0,-10.439527025084658
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.221860454774287,0.0,-10.816853066187377
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.309112886877188,0.0,-11.196282088778162
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.39106432444305,0.0,-11.577621363127037
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.468065251714734,0.0,-11.960694888108492
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.540450156800944,0.0,-12.345341979110799
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.60853532753606,0.0,-12.73141625047424
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.672620685943684,0.0,-13.118784353233764
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.73298761128467,0.0,-13.507325073780521
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.789904628821773,0.0,-13.896927982490183
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.843621048828936,0.0,-14.287492943920256
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.894372720482465,0.0,-14.678928919753503
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.94237572599252,0.0,-15.071153573175025
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.987836016263941,0.0,-15.46409198894014
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.030946598852438,0.0,-15.857676210614045
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.071885004796854,0.0,-16.25184477565847
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.110818667033868,0.0,-16.646541883502664
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.147902102006924,0.0,-17.041717056589164
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.18328203207841,0.0,-17.437324429258638
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.217090505508509,0.0,-17.833322685165854
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.24945019439508,0.0,-18.22967441980893
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.281172180437238,0.0,-18.626306495961103
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.31361593646659,0.0,-19.023085364342364
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.348563117278104,0.0,-19.419771215257583
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.387423870276734,0.0,-19.81609644962782
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.431286030787305,0.0,-20.211789312103974
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.480971433081208,0.0,-20.60658802321325
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.53707930037126,0.0,-21.000250626090974
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.60001799982524,0.0,-21.392562824084848
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.670044498993775,0.0,-21.783339029429953
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.3272686779899914,0.0,-15.998487264448613
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.4117585483174935,0.0,-16.385757273773834
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.5034356557601996,0.0,-16.77111749949222
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.602179239544739,0.0,-17.154499196495635
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.7078171378941533,0.0,-17.53585815578981
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.82013891142617,0.0,-17.915171621308104
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 3.938900559396643,0.0,-18.292438245682092
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.063842391430057,0.0,-18.667670890426848
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.194687752223899,0.0,-19.040898200186007
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.331152071765018,0.0,-19.412160643957577
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.472950844748311,0.0,-19.78150657594381
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.619796584269011,0.0,-20.148993942974812
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.771402804294894,0.0,-20.51468809962512
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 4.926883276123135,0.0,-20.8789934154878
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.084854936632155,0.0,-21.24256953300562
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.244162825305466,0.0,-21.60593283058745
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.403847681343223,0.0,-21.969484532589604
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.563119050696628,0.0,-22.33353267416271
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.721337328779782,0.0,-22.69830768611314
+[15:02:14] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 5.877993517855316,0.0,-23.063977099280123
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.032683306644344,0.0,-23.430660555438635
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.185097692257045,0.0,-23.798437136855
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.33500710145654,0.0,-24.16735415335745
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.482250497262044,0.0,-24.537433318439298
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.626721763919363,0.0,-24.90867711986482
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.768360957011055,0.0,-25.281073033296593
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 6.907146333560036,0.0,-25.65459706123943
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.043090787067058,0.0,-26.02921566639293
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.17623121733493,0.0,-26.404889497248064
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.306626283506034,0.0,-26.781574464971754
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.434350652780381,0.0,-27.15922365510164
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.560163152788618,0.0,-27.537605294401715
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.6853649114340215,0.0,-27.916315589204032
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.811008121939267,0.0,-28.29499657159147
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 7.9379302514088295,0.0,-28.673337630022843
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.066791823697827,0.0,-29.05107244634985
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.198102911945966,0.0,-29.42797720025669
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.332250277807248,0.0,-29.80386628967335
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.469510977582331,0.0,-30.1785920405257
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.610078439739937,0.0,-30.55203750529415
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.754071740398103,0.0,-30.924115614355856
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 8.901550751774494,0.0,-31.294764739056177
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.052526167847873,0.0,-31.66394592409415
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.206971803845931,0.0,-32.03163832168218
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.364828742331952,0.0,-32.39783832329306
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.526015759029406,0.0,-32.76255500451259
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.690431866430686,0.0,-33.12580947502636
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 9.85796191482848,0.0,-33.48763233037948
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.028481569913197,0.0,-33.84806123562612
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.20185840818499,0.0,-34.20714054992948
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.377959520802506,0.0,-34.564917092047494
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.556645040996159,0.0,-34.92144394748948
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.73777888510665,0.0,-35.276774231553645
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 10.921225131408391,0.0,-35.63096315015878
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 11.106851371578728,0.0,-35.984065946763735
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 11.294528411511578,0.0,-36.33613798802014
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 11.484129992736598,0.0,-36.68723482968437
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 11.675532539833739,0.0,-37.03741226103705
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 11.868621476578483,0.0,-37.38672235134902
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 12.063283797451277,0.0,-37.73521784519653
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 12.259414472665412,0.0,-38.08294812749591
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 12.456915661769926,0.0,-38.42995958182166
+[15:02:27] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 12.655689477319811,0.0,-38.776299925030116
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 12.855647796402991,0.0,-39.12201206131272
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 13.056704761202354,0.0,-39.46713860167711
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 13.25878308105871,0.0,-39.8117178662269
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 13.461806665809036,0.0,-40.155788366367915
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 13.665703767228933,0.0,-40.49938677774651
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 13.870409802605081,0.0,-40.84254608981723
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 14.075863387867685,0.0,-41.18529801219552
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 14.28200927176772,0.0,-41.52767107235877
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 14.488794470415769,0.0,-41.869692971593736
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 14.696168046134517,0.0,-42.21139067134129
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 14.90408414942749,0.0,-42.552788436897345
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 15.112501515748818,0.0,-42.893908095851884
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 15.32137975669275,0.0,-43.23477133449455
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 15.530682520832215,0.0,-43.575397666759955
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 15.740377091883602,0.0,-43.91580465146376
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 15.95043077860214,0.0,-44.25601013299854
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 16.16081415700546,0.0,-44.59603017131724
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 16.371500745510502,0.0,-44.93587922037716
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 16.58246671069287,0.0,-45.27557028501428
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 16.793690598745798,0.0,-45.6151150695805
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 17.005149860241318,0.0,-45.954526156902034
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 17.216824200694873,0.0,-46.29381486779698
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 17.42869535507066,0.0,-46.632991391001156
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 17.640746882974327,0.0,-46.97206489637665
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 17.852963989914088,0.0,-47.31104363679924
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 18.065333358984844,0.0,-47.6499350398567
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 18.27784300497251,0.0,-47.98874579037795
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 18.49047890018187,0.0,-48.327483953618525
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 18.703231660690562,0.0,-48.66615473939862
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 18.91609284283095,0.0,-49.00476283655621
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 19.12905160443711,0.0,-49.34331451395508
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 19.34210142670031,0.0,-49.68181336093744
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 19.55523320355269,0.0,-50.02026466054622
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 19.768438739533167,0.0,-50.358673167519896
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 19.98171389972981,0.0,-50.697041112213356
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 20.195051721719437,0.0,-51.03537255085553
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 20.408445939321155,0.0,-51.37367113405253
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 20.621890912972503,0.0,-51.71194014734954
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 20.835384809932293,0.0,-52.05018049510238
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 21.04892273786868,0.0,-52.388395043866126
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 21.262500293682933,0.0,-52.72658637354027
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 21.47611351458636,0.0,-53.064756806034325
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 21.689758834069153,0.0,-53.40290843106686
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 21.90343304227258,0.0,-53.74104312938448
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 22.117136489463974,0.0,-54.079160541024066
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 22.3308662517436,0.0,-54.4172623946539
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 22.54461969760223,0.0,-54.755350246075295
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 22.758394458681323,0.0,-55.09342549550945
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 22.972188403458176,0.0,-55.4314894031553
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 23.18599961356267,0.0,-55.76954310319206
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 23.39982636246168,0.0,-56.10758761638078
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 23.61366709627532,0.0,-56.4456238614066
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 23.82752041651179,0.0,-56.783652665085924
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 24.041385064528413,0.0,-57.12167477155356
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 24.255259907547043,0.0,-57.45969085053093
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 24.469143926067318,0.0,-57.79770150476713
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 24.683036202538688,0.0,-58.13570727673641
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 24.896935911165883,0.0,-58.47370865466553
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 25.110842308733254,0.0,-58.811706077958775
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 25.324754726346555,0.0,-59.14969994207968
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 25.53867256200101,0.0,-59.48769060294558
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 25.75259527389221,0.0,-59.825678380882096
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 25.966522374396618,0.0,-60.16366356418223
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 26.180453424652796,0.0,-60.5016464123097
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 26.394388029685388,0.0,-60.83962715878181
+[15:02:31] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 26.60832583401657,0.0,-61.17760601376415
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 26.82226651771657,0.0,-61.51558316640569
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 27.036209792848467,0.0,-61.85355878694054
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 27.250155400269023,0.0,-62.19153302857944
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 27.464103106749235,0.0,-62.52950602921203
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 27.678052702382956,0.0,-62.867477912938966
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 27.89200399825495,0.0,-63.20544879145086
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 28.10595682434132,0.0,-63.54341876526928
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 28.319911027620492,0.0,-63.881387924863475
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 28.53386647037337,0.0,-64.21935635165596
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 28.74782302865242,0.0,-64.557324118927
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 28.961780590904937,0.0,-64.8952912926286
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 29.17573905673362,0.0,-65.2332579321178
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 29.38969833578085,0.0,-65.5712240908158
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 29.603658346724842,0.0,-65.90918981680181
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 29.79622235147326,0.0,-66.21335896213145
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 29.969529951155664,0.0,-66.48711118567621
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.125506786737787,0.0,-66.73348818033969
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.26588593504289,0.0,-66.95522746966276
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.392227165170652,0.0,-67.1547928247669
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.50593426927344,0.0,-67.33440163960256
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.608270660254902,0.0,-67.49604956867245
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.700373409698386,0.0,-67.64153270098143
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.783265882001615,0.0,-67.77246751659084
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.85786910509819,0.0,-67.89030884751764
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.92501200410652,0.0,-67.99636604254215
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 30.985440611613058,0.0,-68.09181751553558
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.039826356928188,0.0,-68.17772383895397
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.088773526415252,0.0,-68.25503952798238
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.132825977786524,0.0,-68.32462364626463
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.172473182970407,0.0,-68.38724935105961
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.208155666690573,0.0,-68.44361248388202
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.240269901188185,0.0,-68.49433930207829
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.26917271147022,0.0,-68.53999343724558
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.295185240034925,0.0,-68.5810821578076
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.31859651512309,0.0,-68.61806200533385
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.339666662144282,0.0,-68.65134386722582
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.358629793960972,0.0,-68.6812975421351
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.375696612143884,0.0,-68.70825584883926
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.39105674810162,0.0,-68.73251832423023
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.40488087009726,0.0,-68.75435455150364
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.417322579563915,0.0,-68.77400715552915
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.42852011778723,0.0,-68.79169449868357
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.438597901921185,0.0,-68.80761310710079
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.44766790740141,0.0,-68.82193985429683
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.455830912117335,0.0,-68.83483392643166
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.46317761616706,0.0,-68.84643859104563
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.469789649636823,0.0,-68.85688278892144
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.475740479601882,0.0,-68.86628256676067
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.481096226428463,0.0,-68.87474236659193
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.485916398444715,0.0,-68.88235618623833
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.490254553144496,0.0,-68.88920862373857
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.49415889227089,0.0,-68.89537581732543
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.497672797391488,0.0,-68.90092629140656
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.500835311916262,0.0,-68.9059217179472
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.503681574913116,0.0,-68.9104176017147
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.50624321154237,0.0,-68.91446389699831
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.50854868444776,0.0,-68.91810556265705
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.510623610007542,0.0,-68.92138306166305
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.512491042961983,0.0,-68.92433281069032
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.514171732576415,0.0,-68.92698758474455
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.515684353189272,0.0,-68.92937688133009
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.517045711704895,0.0,-68.93152724820004
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.518270934336442,0.0,-68.93346257833173
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.51937363467573,0.0,-68.93520437540417
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.520366064954715,0.0,-68.93677199272781
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.521259252182062,0.0,-68.93818284828171
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.522063120665507,0.0,-68.9394526182466
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.522786602281485,0.0,-68.94059541118474
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.523437735718517,0.0,-68.94162392480177
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.524023755796406,0.0,-68.94254958703266
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.524551173852387,0.0,-68.94338268301829
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.525025850090287,0.0,-68.94413246938552
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.525453058693074,0.0,-68.94480727709822
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.525837546425464,0.0,-68.94541460402354
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.526183585375293,0.0,-68.94596119824178
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.526495020421862,0.0,-68.94645313302522
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.5267753119565,0.0,-68.94689587431856
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.527027574330987,0.0,-68.947294341472
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.527254610462023,0.0,-68.94765296190064
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52745894297459,0.0,-68.9479757202779
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52764284223099,0.0,-68.94826620280969
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52780835155727,0.0,-68.94852763708138
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52795730994694,0.0,-68.94876292791969
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528091372494146,0.0,-68.94897468966849
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.5282120287834,0.0,-68.94916527523742
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52832061944082,0.0,-68.94933680224494
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52841835103004,0.0,-68.94949117654755
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528506309457953,0.0,-68.94963011341622
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52858547204096,0.0,-68.94975515659473
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52865671836389,0.0,-68.94986769545244
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528720840052756,0.0,-68.94996898042166
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528778549571143,0.0,-68.95006013689158
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528830488136464,0.0,-68.95014217771234
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528877232844025,0.0,-68.95021601444898
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.528919303079647,0.0,-68.9502824675103
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52895716629064,0.0,-68.95034227526389
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.52899124317969,0.0,-68.95039610224069
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.529021912378994,0.0,-68.9504445465185
+[15:02:34] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! 31.529049514657572,0.0,-68.95048814636732
+[15:02:49] [Server thread/INFO]: RayWolford lost connection: Timed out
+[15:02:49] [Server thread/INFO]: System chat: RayWolford left the game
+[15:02:54] [Server thread/INFO]: RayWolford[/100.105.9.45:64037] logged in with entity id 18415 at (1012.3432403355866, 62.11076431274414, -582.078419132793)
+[15:02:54] [Server thread/INFO]: System chat: RayWolford joined the game
+[15:03:18] [Server thread/INFO]: System chat: RayWolford was impaled by Drowned
+[15:03:29] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:03:30] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:03:40] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:03:56] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:04:28] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:04:57] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:05:02] [Server thread/INFO]: System chat: RayWolford has made the advancement [Stone Age]
+[15:05:15] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:05:20] [Server thread/INFO]: [Not Secure] <Storyseek3r> 535,-1802
+[15:05:25] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:06:29] [Server thread/INFO]: [Not Secure] <RayWolford> p
+[15:06:32] [Server thread/INFO]: [Not Secure] <RayWolford> p
+[15:06:41] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:06:52] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:08:16] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:08:27] [Server thread/INFO]: System chat: RayWolford has made the advancement [Getting an Upgrade]
+[15:08:29] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:08:38] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:08:51] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:09:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:11:32] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:14:35] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:14:58] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:15:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:15:37] [Server thread/INFO]: System chat: Storyseek3r has completed the challenge [Over-Overkill]
+[15:15:57] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -3.6218842650545184,0.0,-9.725342037883593
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -3.7954089692301523,0.0,-10.084293425668193
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -3.9693048411406835,0.0,-10.443208729383969
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.14287518086735,0.0,-10.802410080935033
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.315550175233625,0.0,-11.162146916297843
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.4868758147279095,0.0,-11.522606277501609
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.656496605058351,0.0,-11.883924781521728
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.8247809493362865,0.0,-12.24593314950971
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -4.992681070725212,0.0,-12.608204186038165
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.161590413715203,0.0,-12.970069712025179
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.332609957707064,0.0,-13.330947491952884
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.506589505528723,0.0,-13.690342653089829
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.684174266221817,0.0,-14.04784042070014
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.865836043260856,0.0,-14.403102746228114
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.051903954494151,0.0,-14.755861405813675
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.242591383460876,0.0,-15.105910097674041
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.438016469306945,0.0,-15.453098194015865
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.638223121884607,0.0,-15.797321828323447
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.842638699868871,0.0,-16.138949598293493
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.050759843867354,0.0,-16.47830370510087
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.262142556817366,0.0,-16.815666992139313
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.47639018435234,0.0,-17.151291548588915
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.66921304402581,0.0,-17.453353641391686
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.842753613134619,0.0,-17.7252095177123
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -7.998940121195005,0.0,-17.969879799919454
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.139507974725575,0.0,-18.190083048072438
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.26601903955168,0.0,-18.388265966160134
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.379878994878936,0.0,-18.566630587713917
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.482352951958887,0.0,-18.72715874285973
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.574579510887702,0.0,-18.871634078663647
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.657583411724772,0.0,-19.001661877442757
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.732286920499178,0.0,-19.118686893243876
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.799520076615067,0.0,-19.22400940467469
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.860029915516407,0.0,-19.318799662451283
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.914488769084869,0.0,-19.404110892190374
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -8.96350173599808,0.0,-19.480890996921516
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -9.007613405051416,0.0,-19.549993089349073
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -9.047313906147792,0.0,-19.612184970886346
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -9.083044356187997,0.0,-19.668157662787053
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -9.115201760372315,0.0,-19.718533084163255
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -9.144143423371474,0.0,-19.763870962200826
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.720609464989252,0.0,-10.438734926465258
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.744052210776545,0.0,-10.475458605729955
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.765150681426121,0.0,-10.50850991619268
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.784139304507789,0.0,-10.538256094821008
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.80122906482859,0.0,-10.56502765487744
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.816609848709845,0.0,-10.589122058289831
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.830452553836267,0.0,-10.610807020786524
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.842910988120025,0.0,-10.630323486516545
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.8541235786783545,0.0,-10.647888305208198
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.864214909913471,0.0,-10.663696641611978
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.873297107784538,0.0,-10.677924143998553
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.881471085651924,0.0,-10.690728895807297
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.888827665537747,0.0,-10.702253172129758
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.89544858725958,0.0,-10.712625020545147
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.9014074166512955,0.0,-10.721959683871773
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.906770362961765,0.0,-10.730360880643275
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.911597014513404,0.0,-10.73792195753731
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.91594100079476,0.0,-10.744726926561725
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.919850588344389,0.0,-10.750851398521263
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.923369217045888,0.0,-10.756363423138964
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.926535982793325,0.0,-10.76132424516345
+[15:15:57] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.929386071890576,0.0,-10.765788984867186
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.931951152010129,0.0,-10.769807250494068
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.934259724056574,0.0,-10.773423689462561
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.9363374388433385,0.0,-10.776678484447984
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.938207382101837,0.0,-10.779607799857104
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.939890330989897,0.0,-10.78224418365562
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.941404984949031,0.0,-10.784616929011463
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.942768173476111,0.0,-10.786752399774969
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.9439950431179795,0.0,-10.788674323411215
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.945099225766398,0.0,-10.790404054638202
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.946092990123702,0.0,-10.791960812701063
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.946987378021618,0.0,-10.793361894920508
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.9477923271083455,0.0,-10.794622868884744
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.948516781267244,0.0,-10.795757745422407
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.949168789992996,0.0,-10.796779134279177
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.949755597830631,0.0,-10.797698384226123
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.950283724870474,0.0,-10.798525709156365
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.950759039193713,0.0,-10.79927030157387
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.951186822073282,0.0,-10.799940434731752
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.951571826654799,0.0,-10.800543554557862
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.95191833076899,0.0,-10.801086362386968
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.952230184463474,0.0,-10.801574889420408
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.952510852781074,0.0,-10.802014563738794
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.955757714079596,0.0,-10.80641456932426
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.961805309243914,0.0,-10.814277361356062
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.970554473997936,0.0,-10.825104632009925
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.9819540723108275,0.0,-10.838394863339772
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -5.995983110817406,0.0,-10.853641131158156
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.008609245138814,0.0,-10.86736277183104
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.019972765727061,0.0,-10.879712248109627
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.0301999339855,0.0,-10.890826776465929
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.039404385174294,0.0,-10.900829851721483
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.047688391024735,0.0,-10.909832619213148
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.0551439960926245,0.0,-10.917935109740938
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.061854040475964,0.0,-10.92522735102284
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.067893080261001,0.0,-10.931790368002567
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.073328215923539,0.0,-10.937697083127887
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.078219837890288,0.0,-10.943013126599908
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.082622297543708,0.0,-10.947797565597966
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.08658451112683,0.0,-10.952103560582145
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.090150503257178,0.0,-10.955978955965293
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.09335989608951,0.0,-10.959466811717675
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.0962483495620745,0.0,-10.962605881811669
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.0988479576185455,0.0,-10.965431044821344
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.1011876048073646,0.0,-10.967973691462703
+[15:15:58] [Server thread/WARN]: Spruce Boat (vehicle of RayWolford) moved too quickly! -6.103293287221504,0.0,-10.970262073379445
+[15:16:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:16:21] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:16:30] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:16:32] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:16:40] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:16:49] [Server thread/INFO]: System chat: RayWolford has made the advancement [Acquire Hardware]
+[15:16:53] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:03] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:04] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:17:14] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:24] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:37] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:37] [Server thread/INFO]: System chat: RayWolford has made the advancement [Sweet Dreams]
+[15:17:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:17:48] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:17:51] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:18:01] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:18:12] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:18:24] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:18:45] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:18:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:18:57] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:09] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:09] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:19:21] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:32] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:43] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:19:44] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:54] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:19:59] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:20:06] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:20:16] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:20:34] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:20:50] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:21:02] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:21:12] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:21:13] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:21:24] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:21:27] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:21:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:21:42] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:21:46] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:00] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:05] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:22:11] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:27] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:31] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:22:46] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:56] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:22:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:23:07] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:23:11] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:23:19] [Server thread/INFO]: System chat: RayWolford has made the advancement [We Need to Go Deeper]
+[15:23:41] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:23:51] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:02] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:12] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:25] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:24:48] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:24:54] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:24:59] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:25:05] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:25:12] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:25:22] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:25:27] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:25:46] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:25:59] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:26:11] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:26:14] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:26:43] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:26:53] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:26:54] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:27:04] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:27:14] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:27:15] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:27:26] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:27:36] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:27:37] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:27:48] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:27:59] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:28:06] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:28:09] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:28:25] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:28:26] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:28:39] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:28:46] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:28:49] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:28:59] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:28:59] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:29:09] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:29:14] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:29:21] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:29:32] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:29:35] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:29:45] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:29:56] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:30:14] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:30:25] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:30:36] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:30:36] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:30:50] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:31:06] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:31:31] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:31:46] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:31:57] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:32:12] [Server thread/INFO]: Player RayWolford standing on air - force-sending blocks below
+[15:32:33] [Server thread/INFO]: RayWolford lost connection: Disconnected
+[15:32:33] [Server thread/INFO]: System chat: RayWolford left the game
+[15:32:54] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:33:11] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:33:30] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:33:56] [Server thread/INFO]: OumaKazuya[/100.123.233.5:60836] logged in with entity id 32709 at (333.218654658604, 64.0, -1521.6968577127795)
+[15:33:56] [Server thread/INFO]: System chat: OumaKazuya joined the game
+[15:33:56] [Server thread/INFO]: JourneyMap client version for OumaKazuya: 6.0.10 (server version: 6.0.9)
+[15:34:07] [Server thread/INFO]: RayWolford[/100.105.9.45:64749] logged in with entity id 33101 at (555.9770847821045, 66.375, -1814.699999988079)
+[15:34:07] [Server thread/INFO]: System chat: RayWolford joined the game
+[15:34:41] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:34:52] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:35:12] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:35:26] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:35:36] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:36:09] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:36:34] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:36:37] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:36:46] [Server thread/INFO]: RayWolford lost connection: Disconnected
+[15:36:46] [Server thread/INFO]: System chat: RayWolford left the game
+[15:36:55] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:37:08] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:37:27] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:37:44] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:37:50] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:38:02] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:38:04] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:38:13] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:38:25] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:38:39] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:38:42] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:38:52] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:39:25] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:39:33] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:39:44] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:39:44] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:39:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:40:07] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:40:11] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:40:23] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:40:23] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:40:34] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:40:37] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:41:04] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:41:15] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:41:23] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:41:38] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:41:50] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:42:11] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:42:45] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:42:55] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:43:02] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:43:15] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:43:23] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:43:35] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:43:37] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:43:45] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:43:47] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:44:09] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:44:30] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:44:38] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:44:50] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:44:52] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:45:06] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:45:13] [Server thread/WARN]: OumaKazuya moved too quickly! 9.93513085363594,5.855089978389486,0.08542578250103361
+[15:45:45] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:45:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:45:56] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:46:34] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:46:53] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:47:05] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:47:07] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:48:26] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:48:41] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:48:44] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:48:55] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:48:56] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:49:08] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:49:13] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:49:28] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:49:47] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:50:03] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:50:15] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:50:17] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:50:31] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:50:35] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:50:43] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:51:42] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:52:03] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:52:17] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:52:43] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:53:26] [Server thread/INFO]: Tree reached max size of 100
+[15:53:28] [Server thread/INFO]: Tree reached max size of 100
+[15:53:28] [Server thread/INFO]: Tree reached max size of 100
+[15:53:29] [Server thread/INFO]: Tree reached max size of 100
+[15:53:30] [Server thread/INFO]: Tree reached max size of 100
+[15:53:31] [Server thread/INFO]: Tree reached max size of 100
+[15:53:31] [Server thread/INFO]: Tree reached max size of 100
+[15:53:32] [Server thread/INFO]: Tree reached max size of 100
+[15:53:33] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:54:00] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:54:13] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:54:23] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:54:39] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:54:56] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:55:41] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:55:52] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:55:57] [Server thread/INFO]: [Not Secure] <OumaKazuya> adam~
+[15:56:04] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:56:17] [Server thread/INFO]: Player OumaKazuya standing on air - force-sending blocks below
+[15:58:04] [Server thread/INFO]: OumaKazuya lost connection: Disconnected
+[15:58:04] [Server thread/INFO]: System chat: OumaKazuya left the game
+[15:59:07] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[15:59:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:00:01] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:01:48] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:02:41] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:03:37] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:03:55] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:04:55] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:05:17] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:05:28] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:06:02] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:06:16] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:06:54] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:07:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:08:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=665, y=103, z=-1813} BlockPos{x=665, y=103, z=-1812}
+[16:08:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=665, y=103, z=-1813} BlockPos{x=665, y=103, z=-1812}
+[16:08:18] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=665, y=103, z=-1813} BlockPos{x=665, y=103, z=-1812}
+[16:08:38] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:10:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:11:30] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:11:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:12:26] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:13:04] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:13:19] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:16:06] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:16:45] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:17:24] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:17:40] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:17:59] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:18:10] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:18:43] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:19:18] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:19:29] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=573, y=106, z=-1807} BlockPos{x=572, y=106, z=-1807}
+[16:20:57] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:22:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=596, y=105, z=-1812} BlockPos{x=597, y=105, z=-1811}
+[16:22:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=596, y=105, z=-1812} BlockPos{x=597, y=105, z=-1811}
+[16:22:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=596, y=105, z=-1812} BlockPos{x=597, y=105, z=-1811}
+[16:22:04] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=596, y=105, z=-1812} BlockPos{x=597, y=105, z=-1811}
+[16:22:17] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:25:56] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:27:13] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:27:34] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:28:57] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:31:48] [Server thread/WARN]: Mismatch in destroy block pos: BlockPos{x=627, y=105, z=-1811} BlockPos{x=628, y=105, z=-1811}
+[16:31:48] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:31:59] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:32:58] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:34:03] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:34:12] [Server thread/INFO]: Player Storyseek3r standing on air - force-sending blocks below
+[16:34:22] [Server thread/INFO]: Storyseek3r lost connection: Disconnected
+[16:34:22] [Server thread/INFO]: System chat: Storyseek3r left the game
+[16:34:27] [Server thread/INFO]: Stopping server
+[16:34:27] [Server thread/INFO]: Saving players
+[16:34:27] [Server thread/INFO]: Saving worlds
+[16:34:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:34:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:34:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether

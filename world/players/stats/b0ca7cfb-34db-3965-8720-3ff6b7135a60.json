@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_axe": 1,
+      "minecraft:stone": 2,
+      "minecraft:carrot": 12,
+      "minecraft:straw_bed": 1,
+      "minecraft:spruce_boat": 2,
+      "minecraft:crafting_table": 2,
+      "minecraft:yellow_bed": 1,
+      "minecraft:wooden_pickaxe": 27,
+      "minecraft:spruce_sapling": 14,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:dirt": 11,
+      "minecraft:golden_carrot": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:stone_sword": 1,
+      "minecraft:stick": 24,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:spruce_boat": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:spruce_planks": 120,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:yellow_bed": 1,
+      "minecraft:spruce_log": 30,
+      "minecraft:straw_bed": 1,
+      "minecraft:dirt": 44,
+      "minecraft:spruce_sapling": 14,
+      "minecraft:iron_block": 50,
+      "minecraft:stick": 28,
+      "minecraft:cobblestone": 23,
+      "minecraft:spruce_boat": 2,
+      "minecraft:stone": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:golden_carrot": 7
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 21075,
+      "minecraft:leave_game": 6,
+      "minecraft:damage_taken": 875,
+      "minecraft:boat_one_cm": 457154,
+      "minecraft:interact_with_beacon": 2,
+      "minecraft:time_since_death": 38179,
+      "minecraft:open_enderchest": 4,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:total_world_time": 64690,
+      "minecraft:swim_one_cm": 7698,
+      "minecraft:crouch_one_cm": 1026,
+      "minecraft:climb_one_cm": 5076,
+      "minecraft:deaths": 2,
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:walk_one_cm": 120179,
+      "minecraft:horse_one_cm": 7840,
+      "minecraft:walk_under_water_one_cm": 3672,
+      "minecraft:play_time": 64690,
+      "minecraft:damage_dealt": 246,
+      "minecraft:sleep_in_straw_bed": 1,
+      "minecraft:jump": 846,
+      "minecraft:open_barrel": 1,
+      "minecraft:sprint_one_cm": 78498,
+      "minecraft:open_chest": 20,
+      "minecraft:fall_one_cm": 21552,
+      "minecraft:fly_one_cm": 181625,
+      "minecraft:walk_on_water_one_cm": 5659,
+      "minecraft:sneak_time": 1080
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1,
+      "minecraft:drowned": 1
+    },
+    "minecraft:mined": {
+      "minecraft:yellow_bed": 1,
+      "minecraft:dirt": 20,
+      "minecraft:spruce_log": 13,
+      "minecraft:crafting_table": 1,
+      "minecraft:grass_block": 5,
+      "minecraft:spruce_leaves": 4,
+      "minecraft:stone": 23
+    }
+  },
+  "DataVersion": 5023
+}
