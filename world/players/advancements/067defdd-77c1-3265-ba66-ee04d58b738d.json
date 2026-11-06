@@ -5297,15 +5297,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_cinnabar_from_cinnabar_stonecutting": {
+  "minecraft:recipes/building_blocks/sulfur_from_sulfur_spikes": {
     "criteria": {
-      "has_cinnabar": "2026-10-24 00:33:55 +0800"
+      "has_sulfur_spike": "2026-10-24 00:33:34 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_sulfur_from_sulfur_stonecutting": {
     "criteria": {
       "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_sulfur_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/potent_sulfur": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_brick_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_brick_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_bricks_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_slab": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_slab_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_stairs": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sulfur_stairs_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_sulfur_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_brick_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_wall": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sulfur_wall_from_sulfur_stonecutting": {
+    "criteria": {
+      "has_sulfur": "2026-10-24 00:33:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_cinnabar_from_cinnabar_stonecutting": {
+    "criteria": {
+      "has_cinnabar": "2026-10-24 00:33:55 +0800"
     },
     "done": true
   },
@@ -5375,84 +5477,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_sulfur": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_sulfur_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/potent_sulfur": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_brick_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_brick_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_bricks_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_from_sulfur_spikes": {
-    "criteria": {
-      "has_sulfur_spike": "2026-10-24 00:33:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_slab": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_slab_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_stairs": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sulfur_stairs_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cinnabar_brick_wall_from_cinnabar_stonecutting": {
     "criteria": {
       "has_cinnabar": "2026-10-24 00:33:55 +0800"
@@ -5477,27 +5501,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_sulfur_wall_from_sulfur_stonecutting": {
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
+      "has_coal_ore": "2026-11-06 21:24:59 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sulfur_brick_wall_from_sulfur_stonecutting": {
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sulfur_wall": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sulfur_wall_from_sulfur_stonecutting": {
-    "criteria": {
-      "has_sulfur": "2026-10-24 00:33:51 +0800"
+      "has_coal_ore": "2026-11-06 21:24:59 +0800"
     },
     "done": true
   },
