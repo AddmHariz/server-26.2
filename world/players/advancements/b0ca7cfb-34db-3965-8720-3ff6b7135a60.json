@@ -309,6 +309,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "mutton": "2026-11-24 17:55:15 +0800",
       "golden_carrot": "2026-11-05 14:59:03 +0800",
       "carrot": "2026-11-05 15:21:05 +0800"
     },
@@ -749,6 +750,60 @@
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2026-11-05 15:26:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool_slab": {
+    "criteria": {
+      "has_brown_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool_stairs": {
+    "criteria": {
+      "has_brown_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-11-24 17:53:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-11-24 17:53:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-11-24 17:53:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-11-24 17:53:49 +0800"
     },
     "done": true
   },
